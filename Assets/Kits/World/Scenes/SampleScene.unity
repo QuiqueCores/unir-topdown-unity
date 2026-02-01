@@ -10419,6 +10419,8 @@ GameObject:
   - component: {fileID: 1695441042}
   - component: {fileID: 1695441045}
   - component: {fileID: 1695441044}
+  - component: {fileID: 1695441047}
+  - component: {fileID: 1695441046}
   m_Layer: 0
   m_Name: EnemySkeleton
   m_TagString: Untagged
@@ -10564,6 +10566,34 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1695441046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695441041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4045e3644601b42bc25728fcd2f148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BaseSkeleton
+  linearSpeed: 4
+--- !u!114 &1695441047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695441041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3dd5d525c252884c8d6dd3117afeab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sight2D
+  radius: 5
+  checkFrequency: 5
+  targetTag: Player
 --- !u!1 &1922024337
 GameObject:
   m_ObjectHideFlags: 0
