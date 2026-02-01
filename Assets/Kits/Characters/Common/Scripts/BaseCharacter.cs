@@ -25,4 +25,9 @@ public class BaseCharacter : MonoBehaviour
         rb2D.position += direction * linearSpeed * Time.deltaTime;
         lastMoveDirection = direction;
     }
+
+    internal void NotifyPunch()
+    {
+        Destroy(gameObject);
+    }
 }
