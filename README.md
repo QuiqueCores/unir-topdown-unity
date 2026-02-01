@@ -33,6 +33,7 @@ El proyecto consiste en un **juego 2D con vista top-down**.
 | -------------------------- | ----------- | ---------------------------------------------- |
 | Enrique A. Cores Rodríguez | Programador | [@QuiqueCores](https://github.com/QuiqueCores) |
 | Christian Salazar          | Programador | [@ccsalazarj89](https://github.com/ccsalazarj89)|
+| Jesús Otero Benítez        | Programador | [@zuz77x](https://github.com/zuz77x)           |
 |                            |             |                                                |
 
 ---
