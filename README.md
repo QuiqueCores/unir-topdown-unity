@@ -32,7 +32,7 @@ El proyecto consiste en un **juego 2D con vista top-down**.
 | Nombre                     | Rol         | GitHub                                         |
 | -------------------------- | ----------- | ---------------------------------------------- |
 | Enrique A. Cores Rodríguez | Programador | [@QuiqueCores](https://github.com/QuiqueCores) |
-|                            |             |                                                |
+| Jesús Otero Benítez        | Programador | [@zuz77x](https://github.com/zuz77x)           |
 |                            |             |                                                |
 
 ---
