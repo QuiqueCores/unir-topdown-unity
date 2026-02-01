@@ -478,6 +478,7 @@ MonoBehaviour:
   move: {fileID: 1068550462}
   punch: {fileID: 1520052993}
   punchRadius: 0.3
+  punchRange: 1
 --- !u!70 &994898868
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -577,7 +578,7 @@ GameObject:
   - component: {fileID: 1524782976}
   - component: {fileID: 1524782975}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
