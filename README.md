@@ -35,6 +35,7 @@ El proyecto consiste en un **juego 2D con vista top-down**.
 | Christian Salazar          | Programador | [@ccsalazarj89](https://github.com/ccsalazarj89)|
 | Jesús Otero Benítez        | Programador | [@zuz77x](https://github.com/zuz77x)           |
 | Laura García Devesa        | Programador | [@lucadev-itsathem](https://github.com/lucadev-itsathem)|
+| Ana Rodríguez López        | Programador | [@fiunc](https://github.com/fiunc)             |
 
 ---
 
