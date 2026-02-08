@@ -475,6 +475,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharacter
   linearSpeed: 4
+  priority: 0
+  side: 0
   move: {fileID: 1068550462}
   punch: {fileID: 1520052993}
   punchRadius: 0.3
@@ -10620,6 +10622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BaseSkeleton
   linearSpeed: 4
+  priority: 0
+  side: 1
 --- !u!114 &1695441047
 MonoBehaviour:
   m_ObjectHideFlags: 0
