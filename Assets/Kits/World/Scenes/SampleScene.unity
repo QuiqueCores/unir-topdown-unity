@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharacter
   linearSpeed: 4
-  priority: 0
+  priority: 10
   side: 0
   move: {fileID: 1068550462}
   punch: {fileID: 1520052993}
@@ -10449,6 +10449,63 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1542618943
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113562917689939863, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9158491945237355292, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
+      propertyPath: m_Name
+      value: Coin
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a67cb7f59c1b41a43baeb4eb58a4b4fa, type: 3}
 --- !u!1 &1695441041
 GameObject:
   m_ObjectHideFlags: 0
@@ -10621,7 +10678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b4045e3644601b42bc25728fcd2f148, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BaseSkeleton
-  linearSpeed: 4
+  linearSpeed: 2
   priority: 0
   side: 1
 --- !u!114 &1695441047
@@ -10638,7 +10695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Sight2D
   radius: 5
   checkFrequency: 5
-  targetTag: Player
+  detectableSides: 0000000002000000
 --- !u!95 &1695441048
 Animator:
   serializedVersion: 7
@@ -10715,3 +10772,4 @@ SceneRoots:
   - {fileID: 1922024339}
   - {fileID: 994898865}
   - {fileID: 1695441043}
+  - {fileID: 1542618943}
