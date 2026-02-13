@@ -1,139 +1,121 @@
 fileFormatVersion: 2
-guid: 7879fd1c550fa694b9a93ef0d2e80a30
+guid: 4c1403b2d8943ed47a1861b53523a36c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6204006557727294094
-    second: skeleton_swordman_0
+      213: 8954187285698921793
+    second: orc2_attack_full_0
   - first:
-      213: -293959581382292901
-    second: skeleton_swordman_1
+      213: 7369422475116114518
+    second: orc2_attack_full_1
   - first:
-      213: -4084272558860483631
-    second: skeleton_swordman_2
+      213: -1173247154441346145
+    second: orc2_attack_full_2
   - first:
-      213: 9151800778123933158
-    second: skeleton_swordman_3
+      213: 784554901587266000
+    second: orc2_attack_full_3
   - first:
-      213: 7190262108990961355
-    second: skeleton_swordman_4
+      213: -6146448091886057175
+    second: orc2_attack_full_4
   - first:
-      213: 4773275251005839943
-    second: skeleton_swordman_5
+      213: 1358253190191903591
+    second: orc2_attack_full_5
   - first:
-      213: 8878552517025465145
-    second: skeleton_swordman_6
+      213: 624026439094178846
+    second: orc2_attack_full_6
   - first:
-      213: -7960107749034111521
-    second: skeleton_swordman_7
+      213: 6210005597590915697
+    second: orc2_attack_full_7
   - first:
-      213: 6734263638876459177
-    second: skeleton_swordman_8
+      213: -7457063870938938066
+    second: orc2_attack_full_8
   - first:
-      213: 4953420602552264843
-    second: skeleton_swordman_9
+      213: 4667780783463807567
+    second: orc2_attack_full_9
   - first:
-      213: 1147292597379826058
-    second: skeleton_swordman_10
+      213: -8973230801233295797
+    second: orc2_attack_full_10
   - first:
-      213: -7795193752684073235
-    second: skeleton_swordman_11
+      213: 7368952380255190324
+    second: orc2_attack_full_11
   - first:
-      213: 3344314517156165438
-    second: skeleton_swordman_12
+      213: -3279367142057360995
+    second: orc2_attack_full_12
   - first:
-      213: 254796033336578856
-    second: skeleton_swordman_13
+      213: 3167555203293896314
+    second: orc2_attack_full_13
   - first:
-      213: -4782250172188831985
-    second: skeleton_swordman_14
+      213: 6606251569814962155
+    second: orc2_attack_full_14
   - first:
-      213: 2601730106471066211
-    second: skeleton_swordman_15
+      213: -633913448640043036
+    second: orc2_attack_full_15
   - first:
-      213: -1842297387455788505
-    second: skeleton_swordman_16
+      213: 4284874197764038867
+    second: orc2_attack_full_16
   - first:
-      213: -9194643770616191689
-    second: skeleton_swordman_17
+      213: 2632352582678775983
+    second: orc2_attack_full_17
   - first:
-      213: 5841797235156755476
-    second: skeleton_swordman_18
+      213: 2990854137913382811
+    second: orc2_attack_full_18
   - first:
-      213: 8474711629769676301
-    second: skeleton_swordman_19
+      213: -8245487192227940570
+    second: orc2_attack_full_19
   - first:
-      213: 8641972607131408978
-    second: skeleton_swordman_20
+      213: -8475261127992423094
+    second: orc2_attack_full_20
   - first:
-      213: -1418858835304025992
-    second: skeleton_swordman_21
+      213: -6795166013975289838
+    second: orc2_attack_full_21
   - first:
-      213: 742289060640066996
-    second: skeleton_swordman_22
+      213: 1343704165552325570
+    second: orc2_attack_full_22
   - first:
-      213: 3379005594882234193
-    second: skeleton_swordman_23
+      213: 3535834944592429949
+    second: orc2_attack_full_23
   - first:
-      213: 6654813252295039086
-    second: skeleton_swordman_24
+      213: 5502158156550813649
+    second: orc2_attack_full_24
   - first:
-      213: 444832143152872027
-    second: skeleton_swordman_25
+      213: 8108072595376920072
+    second: orc2_attack_full_25
   - first:
-      213: 12270188319876089
-    second: skeleton_swordman_26
+      213: -509444851576268862
+    second: orc2_attack_full_26
   - first:
-      213: -6656283748854305782
-    second: skeleton_swordman_27
+      213: 4626841457107787390
+    second: orc2_attack_full_27
   - first:
-      213: 3223331428085572793
-    second: skeleton_swordman_28
+      213: 5741399946095421162
+    second: orc2_attack_full_28
   - first:
-      213: 7857260908475315858
-    second: skeleton_swordman_29
+      213: -4243052103261531887
+    second: orc2_attack_full_29
   - first:
-      213: -3085609106167286632
-    second: skeleton_swordman_30
+      213: -5329780486526020083
+    second: orc2_attack_full_30
   - first:
-      213: 2709611407311305363
-    second: skeleton_swordman_31
+      213: -5185922385318251823
+    second: orc2_attack_full_31
   - first:
-      213: -709007066330617682
-    second: skeleton_swordman_32
+      213: 9107730714090942420
+    second: orc2_attack_full_32
   - first:
-      213: 3142853808801196562
-    second: skeleton_swordman_33
+      213: 8183960867906470813
+    second: orc2_attack_full_33
   - first:
-      213: -6338938812890119877
-    second: skeleton_swordman_34
+      213: 6957133964174084750
+    second: orc2_attack_full_34
   - first:
-      213: 853527969660961652
-    second: skeleton_swordman_35
+      213: 8280160321048717325
+    second: orc2_attack_full_35
   - first:
-      213: 4010767765749758817
-    second: skeleton_swordman_36
+      213: -8399877321896338712
+    second: orc2_attack_full_36
   - first:
-      213: 6593863291309731334
-    second: skeleton_swordman_37
-  - first:
-      213: 4037329329460527732
-    second: skeleton_swordman_38
-  - first:
-      213: -7409675019388990700
-    second: skeleton_swordman_39
-  - first:
-      213: -6213759317584024541
-    second: skeleton_swordman_40
-  - first:
-      213: -3395906539991866842
-    second: skeleton_swordman_41
-  - first:
-      213: 4552984173433090819
-    second: skeleton_swordman_42
-  - first:
-      213: 4121882512048731067
-    second: skeleton_swordman_43
+      213: -2670922856292812408
+    second: orc2_attack_full_37
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -180,7 +162,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 17
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -242,13 +224,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: skeleton_swordman_0
+      name: orc2_attack_full_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 209
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145476025e9a34c70800000000000000
+      internalID: 8954187285698921793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_1
       rect:
         serializedVersion: 2
         x: 68
-        y: 135
-        width: 23
-        height: 20
+        y: 209
+        width: 41
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,746 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e828781181f091650800000000000000
-      internalID: 6204006557727294094
+      spriteID: 652731d32b2754660800000000000000
+      internalID: 7369422475116114518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_1
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 135
-        width: 24
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5ac2657155abebf0800000000000000
-      internalID: -293959581382292901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_2
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 135
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d3ce334fbfb157c0800000000000000
-      internalID: -4084272558860483631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_3
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 141
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e57833c15ab10f70800000000000000
-      internalID: 9151800778123933158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_4
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 135
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc67b50ea41f8c360800000000000000
-      internalID: 7190262108990961355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_5
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 135
-        width: 24
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74add570d841e3240800000000000000
-      internalID: 4773275251005839943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_6
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 135
-        width: 24
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93304f04974f63b70800000000000000
-      internalID: 8878552517025465145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_7
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 135
-        width: 24
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fddccfc3d24088190800000000000000
-      internalID: -7960107749034111521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_8
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 135
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a09f039919e47d50800000000000000
-      internalID: 6734263638876459177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_9
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 123
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b88aa3e2bc51eb440800000000000000
-      internalID: 4953420602552264843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_10
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 123
-        width: 6
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a818248e9800cef00800000000000000
-      internalID: 1147292597379826058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_11
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 123
-        width: 6
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: deeebe72598e1d390800000000000000
-      internalID: -7795193752684073235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_12
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 123
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e37764c9554696e20800000000000000
-      internalID: 3344314517156165438
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_13
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 123
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 823943174a7398300800000000000000
-      internalID: 254796033336578856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_14
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 123
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0f42ab4ec802adb0800000000000000
-      internalID: -4782250172188831985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_15
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 103
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36aa5ad4fb33b1420800000000000000
-      internalID: 2601730106471066211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_16
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 103
-        width: 24
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72a411a7948de66e0800000000000000
-      internalID: -1842297387455788505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_17
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 103
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 735e928b430166080800000000000000
-      internalID: -9194643770616191689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_18
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 103
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 414a06b52ab321150800000000000000
-      internalID: 5841797235156755476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_19
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 103
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d061b4a83593c9570800000000000000
-      internalID: 8474711629769676301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_20
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 103
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25a59be8c447ee770800000000000000
-      internalID: 8641972607131408978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_21
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 103
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 870774f18633f4ce0800000000000000
-      internalID: -1418858835304025992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_22
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 109
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bd0c14c7f32d4a00800000000000000
-      internalID: 742289060640066996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_23
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 103
-        width: 22
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15753019fa3a4ee20800000000000000
-      internalID: 3379005594882234193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_24
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 75
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e689b9de465aa5c50800000000000000
-      internalID: 6654813252295039086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_25
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 75
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5a7d453a7c5c2600800000000000000
-      internalID: 444832143152872027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_26
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 74
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f32228dba79b2000800000000000000
-      internalID: 12270188319876089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_27
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 74
-        width: 11
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0c6559623120a3a0800000000000000
-      internalID: -6656283748854305782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_28
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 75
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b4a46c1bd29bbc20800000000000000
-      internalID: 3223331428085572793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_29
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 43
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 296fb3daa299a0d60800000000000000
-      internalID: 7857260908475315858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_30
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 43
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 894303fbdd6bd25d0800000000000000
-      internalID: -3085609106167286632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_31
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 43
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39af22408397a9520800000000000000
-      internalID: 2709611407311305363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_32
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 39
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea82f1464d91926f0800000000000000
-      internalID: -709007066330617682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_33
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 39
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21a249633e8ad9b20800000000000000
-      internalID: 3142853808801196562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: skeleton_swordman_34
+      name: orc2_attack_full_2
       rect:
         serializedVersion: 2
         x: 133
-        y: 39
-        width: 21
-        height: 19
+        y: 205
+        width: 52
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1005,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b318fbc1cb09708a0800000000000000
-      internalID: -6338938812890119877
+      spriteID: f9329cddde9c7bfe0800000000000000
+      internalID: -1173247154441346145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_35
+      name: orc2_attack_full_3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 39
-        width: 20
-        height: 20
+        x: 200
+        y: 202
+        width: 57
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1027,20 +305,482 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 473808d8a2758db00800000000000000
-      internalID: 853527969660961652
+      spriteID: 0d986e7b68c43ea00800000000000000
+      internalID: 784554901587266000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_36
+      name: orc2_attack_full_4
       rect:
         serializedVersion: 2
-        x: 197
-        y: 39
+        x: 274
+        y: 201
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92901c4960e63baa0800000000000000
+      internalID: -6146448091886057175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_5
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 209
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763fd64841c79d210800000000000000
+      internalID: 1358253190191903591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_6
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 209
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1419a87dbcf8a800800000000000000
+      internalID: 624026439094178846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 200
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a0891603f5e2650800000000000000
+      internalID: 6210005597590915697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_8
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 209
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2509492bef238890800000000000000
+      internalID: -7457063870938938066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_9
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 209
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a31cf34e947c040800000000000000
+      internalID: 4667780783463807567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 145
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4645e4e02ea87380800000000000000
+      internalID: -8973230801233295797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 145
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d31efb527c34660800000000000000
+      internalID: 7368952380255190324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 145
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91459985f85d72d0800000000000000
+      internalID: -3279367142057360995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 145
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ed5caccaa65fb20800000000000000
+      internalID: 3167555203293896314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_14
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 163
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befffa32dce1eab50800000000000000
+      internalID: 6606251569814962155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 145
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7a77bb313e337f0800000000000000
+      internalID: -633913448640043036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_16
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 145
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d066f0716ee67b30800000000000000
+      internalID: 4284874197764038867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_17
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 174
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa886262abef78420800000000000000
+      internalID: 2632352582678775983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_18
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 145
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9795510ef5a18920800000000000000
+      internalID: 2990854137913382811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_19
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 145
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627783bc515229d80800000000000000
+      internalID: -8245487192227940570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 81
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dc55f68e2d16a80800000000000000
+      internalID: -8475261127992423094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210223b3388b2b1a0800000000000000
+      internalID: -6795166013975289838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 77
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c385feb1dbc5a210800000000000000
+      internalID: 1343704165552325570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 74
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7348d0062fc11130800000000000000
+      internalID: 3535834944592429949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_24
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 73
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7ba3311b79b5c40800000000000000
+      internalID: 5502158156550813649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_25
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 74
         width: 19
-        height: 20
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1049,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16bf912780c19a730800000000000000
-      internalID: 4010767765749758817
+      spriteID: 806558c2119a58070800000000000000
+      internalID: 8108072595376920072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_37
+      name: orc2_attack_full_26
       rect:
         serializedVersion: 2
-        x: 229
-        y: 39
-        width: 18
-        height: 19
+        x: 325
+        y: 81
+        width: 37
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1071,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60e21084abb128b50800000000000000
-      internalID: 6593863291309731334
+      spriteID: 2c7152d4b961ee8f0800000000000000
+      internalID: -509444851576268862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_38
+      name: orc2_attack_full_27
       rect:
         serializedVersion: 2
-        x: 19
-        y: 11
-        width: 12
-        height: 12
+        x: 390
+        y: 81
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1093,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 472c2cb62a9770830800000000000000
-      internalID: 4037329329460527732
+      spriteID: e7ed5fa8ac7d53040800000000000000
+      internalID: 4626841457107787390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_39
+      name: orc2_attack_full_28
       rect:
         serializedVersion: 2
-        x: 31
-        y: 11
-        width: 12
-        height: 12
+        x: 461
+        y: 81
+        width: 30
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1115,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41bcb38f3db8b2990800000000000000
-      internalID: -7409675019388990700
+      spriteID: ae6e67ce4dc8daf40800000000000000
+      internalID: 5741399946095421162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_40
+      name: orc2_attack_full_29
       rect:
         serializedVersion: 2
-        x: 68
-        y: 7
+        x: 20
+        y: 17
         width: 23
-        height: 20
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1137,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32c61a392da44c9a0800000000000000
-      internalID: -6213759317584024541
+      spriteID: 1115f9db796ad15c0800000000000000
+      internalID: -4243052103261531887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_41
+      name: orc2_attack_full_30
       rect:
         serializedVersion: 2
-        x: 100
-        y: 7
-        width: 23
-        height: 19
+        x: 75
+        y: 17
+        width: 35
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1159,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 622eb518ef05fd0d0800000000000000
-      internalID: -3395906539991866842
+      spriteID: d06dec9c2e0d806b0800000000000000
+      internalID: -5329780486526020083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_42
+      name: orc2_attack_full_31
       rect:
         serializedVersion: 2
-        x: 132
-        y: 7
-        width: 23
-        height: 19
+        x: 142
+        y: 13
+        width: 49
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1181,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3037475abf27f2f30800000000000000
-      internalID: 4552984173433090819
+      spriteID: 1d2fb561117e708b0800000000000000
+      internalID: -5185922385318251823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: skeleton_swordman_43
+      name: orc2_attack_full_32
       rect:
         serializedVersion: 2
-        x: 164
-        y: 7
-        width: 23
-        height: 20
+        x: 209
+        y: 10
+        width: 47
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1203,8 +943,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb33f885e4ed33930800000000000000
-      internalID: 4121882512048731067
+      spriteID: 4df2e4364d8256e70800000000000000
+      internalID: 9107730714090942420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_33
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 9
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9343438c05439170800000000000000
+      internalID: 8183960867906470813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_34
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 17
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ac66dda74bc8060800000000000000
+      internalID: 6957133964174084750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_35
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 10
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08a46b11f909e270800000000000000
+      internalID: 8280160321048717325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_36
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 17
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea52878414ad6b80800000000000000
+      internalID: -8399877321896338712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_37
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 17
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889f13830d9feead0800000000000000
+      internalID: -2670922856292812408
       vertices: []
       indices: 
       edges: []
@@ -1223,50 +1073,44 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      skeleton_swordman_0: 6204006557727294094
-      skeleton_swordman_1: -293959581382292901
-      skeleton_swordman_10: 1147292597379826058
-      skeleton_swordman_11: -7795193752684073235
-      skeleton_swordman_12: 3344314517156165438
-      skeleton_swordman_13: 254796033336578856
-      skeleton_swordman_14: -4782250172188831985
-      skeleton_swordman_15: 2601730106471066211
-      skeleton_swordman_16: -1842297387455788505
-      skeleton_swordman_17: -9194643770616191689
-      skeleton_swordman_18: 5841797235156755476
-      skeleton_swordman_19: 8474711629769676301
-      skeleton_swordman_2: -4084272558860483631
-      skeleton_swordman_20: 8641972607131408978
-      skeleton_swordman_21: -1418858835304025992
-      skeleton_swordman_22: 742289060640066996
-      skeleton_swordman_23: 3379005594882234193
-      skeleton_swordman_24: 6654813252295039086
-      skeleton_swordman_25: 444832143152872027
-      skeleton_swordman_26: 12270188319876089
-      skeleton_swordman_27: -6656283748854305782
-      skeleton_swordman_28: 3223331428085572793
-      skeleton_swordman_29: 7857260908475315858
-      skeleton_swordman_3: 9151800778123933158
-      skeleton_swordman_30: -3085609106167286632
-      skeleton_swordman_31: 2709611407311305363
-      skeleton_swordman_32: -709007066330617682
-      skeleton_swordman_33: 3142853808801196562
-      skeleton_swordman_34: -6338938812890119877
-      skeleton_swordman_35: 853527969660961652
-      skeleton_swordman_36: 4010767765749758817
-      skeleton_swordman_37: 6593863291309731334
-      skeleton_swordman_38: 4037329329460527732
-      skeleton_swordman_39: -7409675019388990700
-      skeleton_swordman_4: 7190262108990961355
-      skeleton_swordman_40: -6213759317584024541
-      skeleton_swordman_41: -3395906539991866842
-      skeleton_swordman_42: 4552984173433090819
-      skeleton_swordman_43: 4121882512048731067
-      skeleton_swordman_5: 4773275251005839943
-      skeleton_swordman_6: 8878552517025465145
-      skeleton_swordman_7: -7960107749034111521
-      skeleton_swordman_8: 6734263638876459177
-      skeleton_swordman_9: 4953420602552264843
+      orc2_attack_full_0: 8954187285698921793
+      orc2_attack_full_1: 7369422475116114518
+      orc2_attack_full_10: -8973230801233295797
+      orc2_attack_full_11: 7368952380255190324
+      orc2_attack_full_12: -3279367142057360995
+      orc2_attack_full_13: 3167555203293896314
+      orc2_attack_full_14: 6606251569814962155
+      orc2_attack_full_15: -633913448640043036
+      orc2_attack_full_16: 4284874197764038867
+      orc2_attack_full_17: 2632352582678775983
+      orc2_attack_full_18: 2990854137913382811
+      orc2_attack_full_19: -8245487192227940570
+      orc2_attack_full_2: -1173247154441346145
+      orc2_attack_full_20: -8475261127992423094
+      orc2_attack_full_21: -6795166013975289838
+      orc2_attack_full_22: 1343704165552325570
+      orc2_attack_full_23: 3535834944592429949
+      orc2_attack_full_24: 5502158156550813649
+      orc2_attack_full_25: 8108072595376920072
+      orc2_attack_full_26: -509444851576268862
+      orc2_attack_full_27: 4626841457107787390
+      orc2_attack_full_28: 5741399946095421162
+      orc2_attack_full_29: -4243052103261531887
+      orc2_attack_full_3: 784554901587266000
+      orc2_attack_full_30: -5329780486526020083
+      orc2_attack_full_31: -5185922385318251823
+      orc2_attack_full_32: 9107730714090942420
+      orc2_attack_full_33: 8183960867906470813
+      orc2_attack_full_34: 6957133964174084750
+      orc2_attack_full_35: 8280160321048717325
+      orc2_attack_full_36: -8399877321896338712
+      orc2_attack_full_37: -2670922856292812408
+      orc2_attack_full_4: -6146448091886057175
+      orc2_attack_full_5: 1358253190191903591
+      orc2_attack_full_6: 624026439094178846
+      orc2_attack_full_7: 6210005597590915697
+      orc2_attack_full_8: -7457063870938938066
+      orc2_attack_full_9: 4667780783463807567
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
