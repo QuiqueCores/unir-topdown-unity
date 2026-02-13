@@ -1,22 +1,13 @@
 using UnityEngine;
 
-public class BaseSkeleton : BaseCharacter
+public class BaseSkeleton : BaseEnemy
 {
-    Sight2D sight;
-
-    protected override void Awake()
+    protected override void ExecuteAI()
     {
-        base.Awake();
-        sight = GetComponent<Sight2D>();
-    }
-
-    protected override void Update()
-    {
-        base.Update();
-        Transform closestTarget = sight.GetClosestTarget();
-        if (closestTarget != null)
+        Transform target = sight.GetClosestTarget();
+        if (target != null)
         {
-            Move((closestTarget.position - transform.position).normalized);
+            Move((target.position - transform.position).normalized);
         }
     }
 }
