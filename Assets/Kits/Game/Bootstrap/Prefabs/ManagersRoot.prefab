@@ -84,3 +84,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad9cc3b46004d184f91233e566a6f84f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionManager
+  screenFaderPrefab: {fileID: 2957991398412602081, guid: aee3823af88283d49a5993cecde6b93f, type: 3}
+  fadeOutDuration: 0.25
+  fadeInDuration: 0.25
