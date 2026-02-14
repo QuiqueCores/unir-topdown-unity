@@ -174,7 +174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Sight2D
   radius: 5
   checkFrequency: 5
-  detectableSides: 0000000002000000
+  detectableSides: 00000000
 --- !u!114 &2889980860775394015
 MonoBehaviour:
   m_ObjectHideFlags: 0
