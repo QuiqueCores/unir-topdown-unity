@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 994898867}
   - component: {fileID: 994898868}
   - component: {fileID: 994898869}
+  - component: {fileID: 994898870}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -477,10 +478,11 @@ MonoBehaviour:
   linearSpeed: 4
   priority: 10
   side: 0
+  maxLives: 5
   move: {fileID: 1068550462}
   punch: {fileID: 1520052993}
-  punchRadius: 0.3
   punchRange: 1
+  damage: 1
 --- !u!70 &994898868
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -540,6 +542,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &994898870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994898863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9160ab83abd3bd479e3c8f86f982750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeAttack
+  attackRadius: 0.5
+  attackCooldown: 0.5
+  attackRange: 1
 --- !u!114 &1068550462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10521,6 +10538,7 @@ GameObject:
   - component: {fileID: 1695441047}
   - component: {fileID: 1695441046}
   - component: {fileID: 1695441048}
+  - component: {fileID: 1695441049}
   m_Layer: 0
   m_Name: EnemySkeleton
   m_TagString: Untagged
@@ -10681,6 +10699,9 @@ MonoBehaviour:
   linearSpeed: 2
   priority: 0
   side: 1
+  maxLives: 2
+  damage: 1
+  attackRange: 0.8
 --- !u!114 &1695441047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10718,6 +10739,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1695441049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695441041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9160ab83abd3bd479e3c8f86f982750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeAttack
+  attackRadius: 0.5
+  attackCooldown: 0.5
+  attackRange: 1
 --- !u!1 &1922024337
 GameObject:
   m_ObjectHideFlags: 0
