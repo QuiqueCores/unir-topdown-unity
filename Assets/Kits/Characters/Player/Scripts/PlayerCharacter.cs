@@ -1,18 +1,27 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerCharacter : BaseCharacter
+public class PlayerCharacter : BaseCharacter, IAttacker
 {
     [SerializeField] InputActionReference move;
     [SerializeField] InputActionReference punch;
 
     [Header("Punch")]
-    [SerializeField] float punchRadius = 0.3f;
+    //[SerializeField] float punchRadius = 0.3f;
     [SerializeField] float punchRange = 1.0f;
+
+    //IAttacker
+    [Header("Attack")]
+    [SerializeField] int damage = 1;
+
+    MeleeAttack melee;
+    Vector2 rawMove;
+    Vector2 punchDirection = Vector2.down;
 
     protected override void Awake()
     {
         base.Awake();
+        melee = GetComponent<MeleeAttack>();
     }
 
     private void OnEnable()
@@ -27,19 +36,6 @@ public class PlayerCharacter : BaseCharacter
         punch.action.performed += OnPunch;
     }
 
-    protected override void Update()
-    {
-        base.Update();
-
-        Move(rawMove);
-
-        if (mustPunch)
-        {
-            mustPunch = false;
-            PerformPunch();
-        }
-    }
-
     private void OnDisable()
     {
         move.action.Disable();
@@ -52,7 +48,20 @@ public class PlayerCharacter : BaseCharacter
         punch.action.performed -= OnPunch;
     }
 
-    Vector2 rawMove;
+    protected override void Update()
+    {
+        base.Update();
+
+        Move(rawMove);
+
+        //if (mustPunch)
+        //{
+        //    mustPunch = false;
+        //    PerformPunch();
+        //}
+    }
+
+
     private void OnMove(InputAction.CallbackContext context)
     {
         rawMove = context.action.ReadValue<Vector2>();
@@ -63,26 +72,34 @@ public class PlayerCharacter : BaseCharacter
         }
     }
 
-    bool mustPunch;
+    //IAttacker
+    public int Damage => damage;
     private void OnPunch(InputAction.CallbackContext context)
     {
-        mustPunch = true;
+        melee.TryAttack(punchDirection);
     }
 
-    Vector2 punchDirection = Vector2.down;
-    private void PerformPunch()
-    {
-        RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, punchRadius, punchDirection * punchRange);
 
-        foreach (RaycastHit2D hit in hits)
-        {
-            BaseCharacter otherBaseCharacter = hit.collider.GetComponent<BaseCharacter>();
-            if (otherBaseCharacter != this)
-            {
-                otherBaseCharacter?.NotifyPunch();
-            }
-        }
-    }
+    //bool mustPunch;
+    //private void OnPunch(InputAction.CallbackContext context)
+    //{
+    //    mustPunch = true;
+    //}
+
+    //private void PerformPunch()
+    //{
+    //
+    //    RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, punchRadius, punchDirection * punchRange);
+    //
+    //    foreach (RaycastHit2D hit in hits)
+    //    {
+    //        BaseCharacter otherBaseCharacter = hit.collider.GetComponent<BaseCharacter>();
+    //        if (otherBaseCharacter != this)
+    //        {
+    //            otherBaseCharacter?.NotifyPunch();
+    //        }
+    //    }
+    //}
 
     private void OnDrawGizmos()
     {
