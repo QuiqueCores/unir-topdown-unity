@@ -92,11 +92,6 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     private void OnMove(InputAction.CallbackContext context)
     {
         rawMove = context.action.ReadValue<Vector2>();
-
-        if (rawMove.magnitude > 0f)
-        {
-            punchDirection = rawMove.normalized;
-        }
     }
 
     //IAttacker
