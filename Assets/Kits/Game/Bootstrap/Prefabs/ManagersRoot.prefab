@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 113837814718431496}
   - component: {fileID: 7321730569663449871}
   - component: {fileID: 1380661869989437195}
+  - component: {fileID: 2593189594418594657}
   m_Layer: 0
   m_Name: ManagersRoot
   m_TagString: Untagged
@@ -88,3 +89,17 @@ MonoBehaviour:
   screenFaderPrefab: {fileID: 2957991398412602081, guid: aee3823af88283d49a5993cecde6b93f, type: 3}
   fadeOutDuration: 0.25
   fadeInDuration: 0.25
+--- !u!114 &2593189594418594657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563194260405318641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bad49b05955cab4cbe659a21f0c19c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryUI
+  currentItems:
+  - {fileID: 11400000, guid: b0dfd622a0dc13f44b41fd79995dd006, type: 2}
