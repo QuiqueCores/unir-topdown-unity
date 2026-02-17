@@ -13,7 +13,7 @@ public abstract class BaseInteractable : MonoBehaviour, IInteractable
         }
         else
         {
-            Debug.Log($"Falta o obxecto: {requiredItem.uniqueItemName}");
+            Debug.Log($"Lacks object: {requiredItem.uniqueItemName}");
         }
     }
 
