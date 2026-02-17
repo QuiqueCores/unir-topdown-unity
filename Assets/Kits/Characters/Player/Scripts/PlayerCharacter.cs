@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerCharacter : BaseCharacter, IAttacker
 {
+    [SerializeField] private FloatEventChannelSO healthChannel;
     [SerializeField] InputActionReference move;
     [SerializeField] InputActionReference punch;
 
@@ -21,6 +22,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     protected override void Awake()
     {
         base.Awake();
+        cam = Camera.main;
         melee = GetComponent<MeleeAttack>();
     }
 
@@ -54,6 +56,31 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
         Move(rawMove);
 
+        bool isMoving = rawMove.sqrMagnitude > 0.01f;
+
+        lookDirection = GetMouseLookDirection();
+        punchDirection = GetPunchDirection();
+
+        if (lookDirection != Vector2.zero)
+        {
+            lastLookDirection = lookDirection;
+        }
+
+        if (isMoving)
+        {
+            animator.SetFloat("HorizontalVelocity", lastLookDirection.x);
+            animator.SetFloat("VerticalVelocity", lastLookDirection.y);
+
+        }
+        else
+        {
+            animator.SetFloat("HorizontalVelocity", 0);
+            animator.SetFloat("VerticalVelocity", 0);
+            animator.SetFloat("DireccionX", lastLookDirection.x);
+            animator.SetFloat("DireccionY", lastLookDirection.y);
+
+        }
+
         //if (mustPunch)
         //{
         //    mustPunch = false;
@@ -65,11 +92,6 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     private void OnMove(InputAction.CallbackContext context)
     {
         rawMove = context.action.ReadValue<Vector2>();
-
-        if (rawMove.magnitude > 0f)
-        {
-            punchDirection = rawMove.normalized;
-        }
     }
 
     //IAttacker
@@ -100,6 +122,51 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     //        }
     //    }
     //}
+
+    public Vector2 lookDirection
+    {
+        get; private set;
+    }
+    Vector2 lastLookDirection = Vector2.down;
+    Camera cam;
+
+    Vector2 GetMouseLookDirection()
+    {
+        Vector3 mouseWorld = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        Vector2 dir = (mouseWorld - transform.position);
+
+        if (dir.sqrMagnitude < 0.01f)
+        {
+            return lookDirection;
+        }
+        dir.Normalize();
+
+        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+        {
+            return new Vector2(Mathf.Sign(dir.x), 0f);
+        }
+        else
+        {
+            return new Vector2(0f, Mathf.Sign(dir.y));
+        }
+    }
+    Vector2 GetPunchDirection()
+    {
+        Vector3 mouseWorld = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        Vector2 dir = (mouseWorld - transform.position);
+
+        if (dir.sqrMagnitude < 0.01f)
+        {
+            return punchDirection;
+        }
+        return dir.normalized;
+    }
+
+    public override void TakeDamage(int amount)
+    {
+        base.TakeDamage(amount);
+        healthChannel.Raise((float)currentLives / maxLives);
+    }
 
     private void OnDrawGizmos()
     {

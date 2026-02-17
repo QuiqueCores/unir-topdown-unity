@@ -1,6 +1,4 @@
-using JetBrains.Annotations;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
 
 public abstract class BaseEnemy : BaseCharacter, IAttacker
 {

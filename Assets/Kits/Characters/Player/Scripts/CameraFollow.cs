@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [SerializeField] PlayerController player;
+    [SerializeField] PlayerCharacter player;
     [SerializeField] Transform target;
     [SerializeField] float smoothSpeed = 8f;
     [SerializeField] Vector3 offset;
@@ -35,8 +35,8 @@ public class CameraFollow : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCharacter>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        
+
     }
 }

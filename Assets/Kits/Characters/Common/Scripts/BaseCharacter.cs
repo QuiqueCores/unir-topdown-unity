@@ -9,7 +9,7 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
     [SerializeField] IVisible2D.Side side;
 
     Rigidbody2D rb2D;
-    Animator animator;
+    protected Animator animator;
 
     [Header("Lives")]
     [SerializeField] protected int maxLives = 1;
@@ -48,7 +48,7 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
         return side;
     }
 
-    public void TakeDamage(int amount)
+    public virtual void TakeDamage(int amount)
     {
         if (isDead)
             return;
@@ -62,6 +62,6 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
     {
         isDead = true;
         Destroy(gameObject);
-               
+
     }
 }

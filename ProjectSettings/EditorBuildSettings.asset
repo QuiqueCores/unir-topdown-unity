@@ -15,5 +15,5 @@ EditorBuildSettings:
     path: Assets/Kits/World/Scenes/SampleScene_Quique2.unity
     guid: e96c26f4bcf921c42b2941fad5c8967f
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: a802cb37a15a79141a02efc138deff5d, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 277748a027848074da3164d447370b8c, type: 3}
   m_UseUCBPForAssetBundles: 0
