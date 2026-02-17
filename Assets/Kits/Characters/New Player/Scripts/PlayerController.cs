@@ -59,6 +59,9 @@ public class PlayerController : BaseCharacter
         {
             animator.SetFloat("HorizontalVelocity", 0);
             animator.SetFloat("VerticalVelocity", 0);
+            animator.SetFloat("DireccionX", lastLookDirection.x);
+            animator.SetFloat("DireccionY", lastLookDirection.y);
+
         }
 
 
