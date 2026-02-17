@@ -48,7 +48,7 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
         return side;
     }
 
-    public void TakeDamage(int amount)
+    public virtual void TakeDamage(int amount)
     {
         if (isDead)
             return;
