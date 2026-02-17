@@ -117,9 +117,13 @@ public class PlayerController : BaseCharacter
         }
     }
 
-    Vector2 lookDirection;
+    public Vector2 lookDirection
+    { 
+        get; private set;
+    }
     Vector2 lastLookDirection = Vector2.down;
     Camera cam;
+
     Vector2 GetMouseLookDirection()
     {
         Vector3 mouseWorld = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
