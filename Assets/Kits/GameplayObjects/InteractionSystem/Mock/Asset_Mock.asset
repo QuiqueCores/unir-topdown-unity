@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fe30a6791f873e4e82d6aa870569aa7, type: 3}
   m_Name: Asset_Mock
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemDefinition
-  uniqueItemName: 
+  uniqueItemName: mock
