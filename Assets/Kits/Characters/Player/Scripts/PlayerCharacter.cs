@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerCharacter : BaseCharacter, IAttacker
 {
+    [SerializeField] private FloatEventChannelSO healthChannel;
     [SerializeField] InputActionReference move;
     [SerializeField] InputActionReference punch;
 
@@ -164,6 +165,12 @@ public class PlayerCharacter : BaseCharacter, IAttacker
             return punchDirection;
         }
         return dir.normalized;
+    }
+
+    public override void TakeDamage(int amount)
+    {
+        base.TakeDamage(amount);
+        healthChannel.Raise((float)currentLives / maxLives);
     }
 
     private void OnDrawGizmos()
