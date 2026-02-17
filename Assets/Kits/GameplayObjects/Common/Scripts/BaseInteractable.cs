@@ -19,12 +19,10 @@ public abstract class BaseInteractable : MonoBehaviour, IInteractable
 
     protected virtual bool CheckCondition()
     {
-        if (requiredItem == null) return true; // Sen condición
+        if (requiredItem == null) return true;
 
-        // Chamada ao sistema que viches en clase
         return InventoryUI.instance.Contains(requiredItem);
     }
 
-    // O que fai o obxecto ao activarse
     protected abstract void OnInteract(GameObject requester);
 }
