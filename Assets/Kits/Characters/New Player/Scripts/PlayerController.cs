@@ -6,7 +6,7 @@ public class PlayerController : BaseCharacter
     [SerializeField] InputActionReference move;
     [SerializeField] InputActionReference punch;
 
-    Animator animator;
+    //Animator animator;
 
 
     [Header("Punch")]
@@ -17,7 +17,7 @@ public class PlayerController : BaseCharacter
     {
         base.Awake();
         cam = Camera.main;
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
 
     }
 
@@ -112,7 +112,7 @@ public class PlayerController : BaseCharacter
             BaseCharacter otherBaseCharacter = hit.collider.GetComponent<BaseCharacter>();
             if (otherBaseCharacter != this)
             {
-                otherBaseCharacter?.NotifyPunch();
+                //otherBaseCharacter?.NotifyPunch();
             }
         }
     }

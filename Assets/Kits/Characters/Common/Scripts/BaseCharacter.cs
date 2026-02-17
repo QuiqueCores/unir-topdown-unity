@@ -9,7 +9,7 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
     [SerializeField] IVisible2D.Side side;
 
     Rigidbody2D rb2D;
-    Animator animator;
+    protected Animator animator;
 
     [Header("Lives")]
     [SerializeField] protected int maxLives = 1;
