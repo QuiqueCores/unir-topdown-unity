@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class BaseCharacter : MonoBehaviour, IVisible2D
 {
+
     [SerializeField] float linearSpeed = 1f;
 
     [SerializeField] int priority = 0;
@@ -10,10 +11,18 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
     Rigidbody2D rb2D;
     Animator animator;
 
+    [Header("Lives")]
+    [SerializeField] protected int maxLives = 1;
+    protected int currentLives;
+    bool isDead = false;
+
     protected virtual void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        currentLives = maxLives;
+        isDead = false;
     }
 
     protected virtual void Update()
@@ -29,11 +38,6 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
         lastMoveDirection = direction;
     }
 
-    internal void NotifyPunch()
-    {
-        Destroy(gameObject);
-    }
-
     int IVisible2D.GetPriority()
     {
         return priority;
@@ -42,5 +46,22 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
     IVisible2D.Side IVisible2D.GetSide()
     {
         return side;
+    }
+
+    public void TakeDamage(int amount)
+    {
+        if (isDead)
+            return;
+
+        currentLives -= amount;
+
+        if (currentLives <= 0)
+            Die();
+    }
+    protected void Die()
+    {
+        isDead = true;
+        Destroy(gameObject);
+               
     }
 }

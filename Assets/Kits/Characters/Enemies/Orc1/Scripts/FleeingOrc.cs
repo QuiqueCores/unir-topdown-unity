@@ -1,13 +1,11 @@
 using UnityEngine;
+using System.Collections;
 
 public class FleeingOrc : BaseEnemy
 {
     protected override void ExecuteAI()
     {
-        Transform target = sight.GetClosestTarget();
-        if (target != null)
-        {
-            Move((transform.position - target.position).normalized);
-        }
+        base.ExecuteAI();
+        Move(-distance.normalized);
     }
 }
