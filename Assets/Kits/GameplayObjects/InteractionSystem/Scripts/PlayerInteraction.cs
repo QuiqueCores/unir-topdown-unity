@@ -35,7 +35,7 @@ public class PlayerInteraction : MonoBehaviour
             {
                 Debug.Log($"<color=green>Interface detectada en:</color> {hit.gameObject.name}");
                 interactable.Interact(this.gameObject);
-                return; 
+                return;
             }
         }
 

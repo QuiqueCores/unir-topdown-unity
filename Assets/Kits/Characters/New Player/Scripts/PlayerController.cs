@@ -48,7 +48,7 @@ public class PlayerController : BaseCharacter
         {
             lastLookDirection = lookDirection;
         }
-        
+
         if (isMoving)
         {
             animator.SetFloat("HorizontalVelocity", lastLookDirection.x);
@@ -118,7 +118,7 @@ public class PlayerController : BaseCharacter
     }
 
     public Vector2 lookDirection
-    { 
+    {
         get; private set;
     }
     Vector2 lastLookDirection = Vector2.down;
@@ -129,13 +129,13 @@ public class PlayerController : BaseCharacter
         Vector3 mouseWorld = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         Vector2 dir = (mouseWorld - transform.position);
 
-        if ( dir.sqrMagnitude < 0.01f)
+        if (dir.sqrMagnitude < 0.01f)
         {
             return lookDirection;
         }
         dir.Normalize();
 
-        if(Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
         {
             return new Vector2(Mathf.Sign(dir.x), 0f);
         }

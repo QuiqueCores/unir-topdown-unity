@@ -37,6 +37,6 @@ public class CameraFollow : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        
+
     }
 }

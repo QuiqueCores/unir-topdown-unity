@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 
 public class MeleeAttack : MonoBehaviour
 {
@@ -14,7 +14,7 @@ public class MeleeAttack : MonoBehaviour
     {
         attacker = GetComponent<IAttacker>();
     }
-        public void TryAttack(Vector2 direction)
+    public void TryAttack(Vector2 direction)
     {
         if (!canAttack || attacker == null)
             return;

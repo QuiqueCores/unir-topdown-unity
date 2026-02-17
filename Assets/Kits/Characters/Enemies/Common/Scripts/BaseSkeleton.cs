@@ -1,6 +1,3 @@
-using UnityEngine;
-using System.Collections;
-
 public class BaseSkeleton : BaseEnemy
 {
     protected override void ExecuteAI()

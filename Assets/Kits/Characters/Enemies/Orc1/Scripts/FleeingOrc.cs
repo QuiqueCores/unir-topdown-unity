@@ -1,6 +1,3 @@
-using UnityEngine;
-using System.Collections;
-
 public class FleeingOrc : BaseEnemy
 {
     protected override void ExecuteAI()

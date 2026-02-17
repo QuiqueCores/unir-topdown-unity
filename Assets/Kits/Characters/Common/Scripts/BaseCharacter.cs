@@ -62,6 +62,6 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
     {
         isDead = true;
         Destroy(gameObject);
-               
+
     }
 }
