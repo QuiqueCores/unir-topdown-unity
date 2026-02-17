@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3719748113522371581}
   - component: {fileID: 7969409915131369027}
   - component: {fileID: 6786143191426781372}
+  - component: {fileID: 4703325384047252400}
   m_Layer: 0
   m_Name: EnemySkeleton
   m_TagString: Untagged
@@ -190,6 +191,9 @@ MonoBehaviour:
   linearSpeed: 2
   priority: 0
   side: 1
+  maxLives: 1
+  damage: 1
+  attackRange: 0.8
 --- !u!95 &6786143191426781372
 Animator:
   serializedVersion: 7
@@ -212,3 +216,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4703325384047252400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728576748421107906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9160ab83abd3bd479e3c8f86f982750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeAttack
+  attackRadius: 0.5
+  attackCooldown: 0.5
+  attackRange: 1
