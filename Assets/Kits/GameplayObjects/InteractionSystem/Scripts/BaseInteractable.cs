@@ -7,7 +7,7 @@ public abstract class BaseInteractable : MonoBehaviour, IInteractable
 
     public void Interact(GameObject requester)
     {
-        if (CheckCondition())
+        if (CheckCondition(requester))
         {
             OnInteract(requester);
         }
@@ -17,11 +17,24 @@ public abstract class BaseInteractable : MonoBehaviour, IInteractable
         }
     }
 
-    protected virtual bool CheckCondition()
+    protected virtual bool CheckCondition(GameObject requester)
     {
         if (requiredItem == null) return true;
 
-        return InventoryUI.instance.Contains(requiredItem);
+        var inventory = requester.GetComponentInChildren<InventorySystem>();
+
+        if (inventory == null)
+        {
+            inventory = requester.GetComponent<InventorySystem>();
+        }
+
+        if (inventory == null)
+        {
+            Debug.LogWarning("Requester has no InventorySystem.");
+            return false;
+        }
+
+        return inventory.GetCount(requiredItem.ItemId) > 0;
     }
 
     protected abstract void OnInteract(GameObject requester);
