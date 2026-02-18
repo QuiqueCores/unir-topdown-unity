@@ -33,10 +33,12 @@ public class CameraFollow : MonoBehaviour
         );
     }
 
-    private void Awake()
+    private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCharacter>();
-        target = GameObject.FindGameObjectWithTag("Player").transform;
-
+        if (PlayerPersistent.Instance != null)
+        {
+            player = PlayerPersistent.Instance.Character;
+            target = player.transform;
+        }
     }
 }
