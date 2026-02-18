@@ -4,8 +4,6 @@ using UnityEngine.InputSystem;
 public class PlayerCharacter : BaseCharacter, IAttacker
 {
     [SerializeField] private FloatEventChannelSO healthChannel;
-    [SerializeField] InputActionReference move;
-    [SerializeField] InputActionReference punch;
 
     [Header("Punch")]
     //[SerializeField] float punchRadius = 0.3f;
@@ -18,36 +16,47 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     MeleeAttack melee;
     Vector2 rawMove;
     Vector2 punchDirection = Vector2.down;
+    private PlayerInput playerInput;
+    private InputAction moveAction;
+    private InputAction attackAction;
 
     protected override void Awake()
     {
         base.Awake();
         cam = Camera.main;
         melee = GetComponent<MeleeAttack>();
+
+        // Wire input actions
+        playerInput = GetComponent<PlayerInput>();
+
+        var actions = playerInput.actions;
+
+        moveAction = actions.FindAction("Move", true);
+        attackAction = actions.FindAction("Attack", true);
     }
 
     private void OnEnable()
     {
-        move.action.Enable();
+        moveAction.Enable();
 
-        move.action.started += OnMove;
-        move.action.performed += OnMove;
-        move.action.canceled += OnMove;
+        moveAction.started += OnMove;
+        moveAction.performed += OnMove;
+        moveAction.canceled += OnMove;
 
-        punch.action.Enable();
-        punch.action.performed += OnPunch;
+        attackAction.Enable();
+        attackAction.performed += OnPunch;
     }
 
     private void OnDisable()
     {
-        move.action.Disable();
+        moveAction.Disable();
 
-        move.action.started -= OnMove;
-        move.action.performed -= OnMove;
-        move.action.canceled -= OnMove;
+        moveAction.started -= OnMove;
+        moveAction.performed -= OnMove;
+        moveAction.canceled -= OnMove;
 
-        punch.action.Disable();
-        punch.action.performed -= OnPunch;
+        attackAction.Disable();
+        attackAction.performed -= OnPunch;
     }
 
     protected override void Update()
