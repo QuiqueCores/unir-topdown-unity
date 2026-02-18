@@ -3,7 +3,7 @@ using UnityEngine;
 public abstract class BaseInteractable : MonoBehaviour, IInteractable
 {
     [Header("Requirements")]
-    [SerializeField] protected InventoryItemDefinition requiredItem;
+    [SerializeField] protected ItemDefinitionSO requiredItem;
 
     public void Interact(GameObject requester)
     {

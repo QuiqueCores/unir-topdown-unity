@@ -7,7 +7,7 @@ public class InventoryUI : MonoBehaviour
     public static InventoryUI instance;
 
     [Header("Debug Inventory")]
-    public List<InventoryItemDefinition> currentItems = new List<InventoryItemDefinition>();
+    public List<ItemDefinitionSO> currentItems = new List<ItemDefinitionSO>();
 
     private void Awake()
     {
@@ -15,13 +15,13 @@ public class InventoryUI : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    public bool Contains(InventoryItemDefinition item)
+    public bool Contains(ItemDefinitionSO item)
     {
         if (item == null) return true;
         return currentItems.Contains(item);
     }
 
-    public void AddItem(InventoryItemDefinition item)
+    public void AddItem(ItemDefinitionSO item)
     {
         if (!currentItems.Contains(item))
             currentItems.Add(item);
