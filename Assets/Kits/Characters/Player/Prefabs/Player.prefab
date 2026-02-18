@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 3932538334409728835}
   - component: {fileID: 9139853114948270352}
   - component: {fileID: 2492834698816243560}
+  - component: {fileID: 5095355714398329521}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -271,6 +272,23 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: df70fa95-8a34-4494-b137-73ab6b9c7d37
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &5095355714398329521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6607009279764902295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d97fc0a110b74419ab888ca6f69a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventorySystem
+  itemDatabase:
+  - {fileID: 11400000, guid: a05a7d18f25b396488c528d4516e3f9e, type: 2}
+  initialItems:
+  - itemId: test_item
+    quantity: 1

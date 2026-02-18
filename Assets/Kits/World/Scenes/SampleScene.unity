@@ -10597,7 +10597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc59f1df1bf09184b98772e5f843da73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MockInteractable
-  requiredItem: {fileID: 11400000, guid: b0dfd622a0dc13f44b41fd79995dd006, type: 2}
+  requiredItem: {fileID: 11400000, guid: a05a7d18f25b396488c528d4516e3f9e, type: 2}
 --- !u!212 &1907900015
 SpriteRenderer:
   serializedVersion: 2
