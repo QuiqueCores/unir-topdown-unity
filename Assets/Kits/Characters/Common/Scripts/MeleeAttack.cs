@@ -1,11 +1,14 @@
 using System.Collections;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
+using UnityEngine;
 
 public class MeleeAttack : MonoBehaviour
 {
     [SerializeField] float attackRadius = 0.5f;
     [SerializeField] float attackCooldown = 0.5f;
     [SerializeField] float attackRange = 1.0f;
+ 
 
     IAttacker attacker;
     bool canAttack = true;
@@ -16,6 +19,7 @@ public class MeleeAttack : MonoBehaviour
     }
     public void TryAttack(Vector2 direction)
     {
+
         if (!canAttack || attacker == null)
             return;
 
@@ -32,13 +36,24 @@ public class MeleeAttack : MonoBehaviour
             attackRange
         );
 
+
+        var mySide = GetComponent<IVisible2D>().GetSide();
+
         foreach (RaycastHit2D hit in hits)
         {
-            BaseCharacter target = hit.collider.GetComponent<BaseCharacter>();
-            if (target != null && target.gameObject != gameObject)
-            {
-                target.TakeDamage(attacker.Damage);
-            }
+       
+            var damageable = hit.collider.GetComponentInParent<IDamageable>();
+
+
+            if (damageable == null)
+                continue;
+
+
+            if (damageable.GetSide() == mySide)
+                continue;
+
+
+            damageable.TakeDamage(attacker.Damage);
         }
 
         yield return new WaitForSeconds(attackCooldown);
