@@ -9,7 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fe30a6791f873e4e82d6aa870569aa7, type: 3}
+  m_Script: {fileID: 11500000, guid: e8a90567fbe438541b8c5e79c7b21358, type: 3}
   m_Name: Asset_Mock
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemDefinition
-  uniqueItemName: mock
+  itemId: mock
+  displayName: Mock
+  icon: {fileID: 0}
+  stackable: 0
+  maxStack: 1
