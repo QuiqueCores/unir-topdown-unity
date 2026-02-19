@@ -289,4 +289,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySystem
   itemDatabase:
   - {fileID: 11400000, guid: a05a7d18f25b396488c528d4516e3f9e, type: 2}
+  - {fileID: 11400000, guid: 27a26c5e862efe34097f0f8e928e9454, type: 2}
   initialItems: []

@@ -54,7 +54,7 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
     public virtual void TakeDamage(int amount)
     {
 
-     
+
         if (isDead)
             return;
 
