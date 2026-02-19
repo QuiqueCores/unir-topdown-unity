@@ -20,6 +20,9 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     private InputAction moveAction;
     private InputAction attackAction;
 
+    private bool isInteracting = false;
+    public bool IsInteracting { get => isInteracting; set => isInteracting = value; }
+
     protected override void Awake()
     {
         base.Awake();
@@ -63,33 +66,35 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     {
         base.Update();
 
-        Move(rawMove);
-
-        bool isMoving = rawMove.sqrMagnitude > 0.01f;
-
-        lookDirection = GetMouseLookDirection();
-        punchDirection = GetPunchDirection();
-
-        if (lookDirection != Vector2.zero)
+        if (!isInteracting)
         {
-            lastLookDirection = lookDirection;
+            Move(rawMove);
+
+            bool isMoving = rawMove.sqrMagnitude > 0.01f;
+
+            lookDirection = GetMouseLookDirection();
+            punchDirection = GetPunchDirection();
+
+            if (lookDirection != Vector2.zero)
+            {
+                lastLookDirection = lookDirection;
+            }
+
+            if (isMoving)
+            {
+                animator.SetFloat("HorizontalVelocity", lastLookDirection.x);
+                animator.SetFloat("VerticalVelocity", lastLookDirection.y);
+
+            }
+            else
+            {
+                animator.SetFloat("HorizontalVelocity", 0);
+                animator.SetFloat("VerticalVelocity", 0);
+                animator.SetFloat("DireccionX", lastLookDirection.x);
+                animator.SetFloat("DireccionY", lastLookDirection.y);
+
+            }
         }
-
-        if (isMoving)
-        {
-            animator.SetFloat("HorizontalVelocity", lastLookDirection.x);
-            animator.SetFloat("VerticalVelocity", lastLookDirection.y);
-
-        }
-        else
-        {
-            animator.SetFloat("HorizontalVelocity", 0);
-            animator.SetFloat("VerticalVelocity", 0);
-            animator.SetFloat("DireccionX", lastLookDirection.x);
-            animator.SetFloat("DireccionY", lastLookDirection.y);
-
-        }
-
         //if (mustPunch)
         //{
         //    mustPunch = false;
@@ -107,8 +112,8 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     public int Damage => damage;
     private void OnPunch(InputAction.CallbackContext context)
     {
-       
-        melee.TryAttack(punchDirection);
+        if (!isInteracting)
+            melee.TryAttack(punchDirection);
     }
 
 
@@ -137,6 +142,8 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     {
         get; private set;
     }
+    
+
     Vector2 lastLookDirection = Vector2.down;
     Camera cam;
 
