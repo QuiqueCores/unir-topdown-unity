@@ -1062,6 +1062,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1882233295650874322}
   - component: {fileID: 9091909419194711675}
+  - component: {fileID: 4600487729889238651}
   m_Layer: 0
   m_Name: UIRoot
   m_TagString: Untagged
@@ -1102,6 +1103,24 @@ MonoBehaviour:
   promptChannel: {fileID: 11400000, guid: 585d15bc964fd7c419ca907e73c0b1bd, type: 2}
   healthFill: {fileID: 4144869192666508990}
   promptText: {fileID: 9203511452665497475}
+--- !u!114 &4600487729889238651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7441052694360359838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae9f1a8e32ccab4ab8b2323aafe7fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryUIScreen
+  screenRoot: {fileID: 7933147878784970852}
+  gridParent: {fileID: 3417084452734509200}
+  slotPrefab: {fileID: 1873703759108613063, guid: 33fc6f9b4c2787c4195ffcad0ba9bc3d, type: 3}
+  detailsImage: {fileID: 576548157669266949}
+  detailsNameText: {fileID: 7149214345836828993}
+  detailsDescriptionText: {fileID: 4487290049643484780}
 --- !u!1 &7909474376682782862
 GameObject:
   m_ObjectHideFlags: 0
