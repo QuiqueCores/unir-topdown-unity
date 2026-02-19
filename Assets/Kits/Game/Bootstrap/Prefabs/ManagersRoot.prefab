@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c3748857d80ea04db4db9faf59ac318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  hudRootPrefab: {fileID: 7441052694360359838, guid: 74dd2e9ae9641f343bd3beda691c43ee, type: 3}
+  UIRootPrefab: {fileID: 7441052694360359838, guid: 74dd2e9ae9641f343bd3beda691c43ee, type: 3}
 --- !u!114 &1380661869989437195
 MonoBehaviour:
   m_ObjectHideFlags: 0
