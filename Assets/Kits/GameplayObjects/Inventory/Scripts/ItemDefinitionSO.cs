@@ -6,6 +6,7 @@ public class ItemDefinitionSO : ScriptableObject
     [Header("Item Details")]
     [SerializeField] private string itemId;
     [SerializeField] private string displayName;
+    [SerializeField] private string description = "";
 
     [Header("Presentation")]
     [SerializeField] private Sprite icon;
@@ -16,6 +17,7 @@ public class ItemDefinitionSO : ScriptableObject
 
     public string ItemId => itemId;
     public string DisplayName => displayName;
+    public string Description => description;
     public Sprite Icon => icon;
     public bool Stackable => stackable;
     public int MaxStack => Mathf.Max(1, maxStack);
