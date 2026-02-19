@@ -8,7 +8,7 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
     [SerializeField] int priority = 0;
     [SerializeField] IVisible2D.Side side;
 
-    Rigidbody2D rb2D;
+    protected Rigidbody2D rb2D;
     protected Animator animator;
 
     [Header("Lives")]
@@ -58,7 +58,7 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
         if (currentLives <= 0)
             Die();
     }
-    protected void Die()
+    protected virtual void Die()
     {
         isDead = true;
         Destroy(gameObject);
