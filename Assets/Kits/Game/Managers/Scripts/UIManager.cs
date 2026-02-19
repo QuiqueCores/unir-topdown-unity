@@ -2,24 +2,24 @@ using UnityEngine;
 
 public class UIManager : PersistentSingleton<UIManager>
 {
-    [SerializeField] private GameObject hudRootPrefab;
+    [SerializeField] private GameObject UIRootPrefab;
 
-    private GameObject hudInstance;
+    private GameObject UIInstance;
 
     protected override void Awake()
     {
         base.Awake();
-        EnsureHud();
+        EnsureUI();
     }
 
-    private void EnsureHud()
+    private void EnsureUI()
     {
-        if (hudInstance != null)
+        if (UIInstance != null)
         {
             return;
         }
 
-        hudInstance = Instantiate(hudRootPrefab);
-        DontDestroyOnLoad(hudInstance);
+        UIInstance = Instantiate(UIRootPrefab);
+        DontDestroyOnLoad(UIInstance);
     }
 }

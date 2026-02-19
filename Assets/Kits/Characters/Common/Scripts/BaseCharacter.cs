@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BaseCharacter : MonoBehaviour, IVisible2D
+public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
 {
 
     [SerializeField] float linearSpeed = 1f;
@@ -32,6 +32,9 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
     }
 
     Vector2 lastMoveDirection;
+
+    public Transform Transform => transform;
+
     protected void Move(Vector2 direction)
     {
         rb2D.position += direction * linearSpeed * Time.deltaTime;
@@ -50,6 +53,8 @@ public class BaseCharacter : MonoBehaviour, IVisible2D
 
     public virtual void TakeDamage(int amount)
     {
+
+
         if (isDead)
             return;
 

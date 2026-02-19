@@ -4,12 +4,10 @@ using UnityEngine.InputSystem;
 public class PlayerCharacter : BaseCharacter, IAttacker
 {
     [SerializeField] private FloatEventChannelSO healthChannel;
-    [SerializeField] InputActionReference move;
-    [SerializeField] InputActionReference punch;
 
     [Header("Punch")]
     //[SerializeField] float punchRadius = 0.3f;
-    [SerializeField] float punchRange = 1.0f;
+    [SerializeField] float punchRange = 2.0f;
 
     //IAttacker
     [Header("Attack")]
@@ -22,69 +20,85 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     MeleeAttack melee;
     Vector2 rawMove;
     Vector2 punchDirection = Vector2.down;
+    private PlayerInput playerInput;
+    private InputAction moveAction;
+    private InputAction attackAction;
+
+    private bool isInteracting = false;
+    public bool IsInteracting { get => isInteracting; set => isInteracting = value; }
 
     protected override void Awake()
     {
         base.Awake();
         cam = Camera.main;
         melee = GetComponent<MeleeAttack>();
+
+        // Wire input actions
+        playerInput = GetComponent<PlayerInput>();
+
+        var actions = playerInput.actions;
+
+        moveAction = actions.FindAction("Move", true);
+        attackAction = actions.FindAction("Attack", true);
     }
 
     private void OnEnable()
     {
-        move.action.Enable();
+        moveAction.Enable();
 
-        move.action.started += OnMove;
-        move.action.performed += OnMove;
-        move.action.canceled += OnMove;
+        moveAction.started += OnMove;
+        moveAction.performed += OnMove;
+        moveAction.canceled += OnMove;
 
-        punch.action.Enable();
-        punch.action.performed += OnPunch;
+        attackAction.Enable();
+        attackAction.performed += OnPunch;
     }
 
     private void OnDisable()
     {
-        move.action.Disable();
+        moveAction.Disable();
 
-        move.action.started -= OnMove;
-        move.action.performed -= OnMove;
-        move.action.canceled -= OnMove;
+        moveAction.started -= OnMove;
+        moveAction.performed -= OnMove;
+        moveAction.canceled -= OnMove;
 
-        punch.action.Disable();
-        punch.action.performed -= OnPunch;
+        attackAction.Disable();
+        attackAction.performed -= OnPunch;
     }
 
     protected override void Update()
     {
         base.Update();
 
-        Move(rawMove);
-
-        bool isMoving = rawMove.sqrMagnitude > 0.01f;
-
-        lookDirection = GetMouseLookDirection();
-        punchDirection = GetPunchDirection();
-
-        if (lookDirection != Vector2.zero)
+        if (!isInteracting)
         {
-            lastLookDirection = lookDirection;
+            Move(rawMove);
+
+            bool isMoving = rawMove.sqrMagnitude > 0.01f;
+
+            lookDirection = GetMouseLookDirection();
+            punchDirection = GetPunchDirection();
+
+            if (lookDirection != Vector2.zero)
+            {
+                lastLookDirection = lookDirection;
+            }
+
+            if (isMoving)
+            {
+                animator.SetFloat("HorizontalVelocity", lastLookDirection.x);
+                animator.SetFloat("VerticalVelocity", lastLookDirection.y);
+
+            }
+            else
+            {
+                animator.SetFloat("HorizontalVelocity", 0);
+                animator.SetFloat("VerticalVelocity", 0);
+                animator.SetFloat("DireccionX", lastLookDirection.x);
+                animator.SetFloat("DireccionY", lastLookDirection.y);
+
+            }
         }
-
-        if (isMoving)
-        {
-            animator.SetFloat("HorizontalVelocity", lastLookDirection.x);
-            animator.SetFloat("VerticalVelocity", lastLookDirection.y);
-
-        }
-        else
-        {
-            animator.SetFloat("HorizontalVelocity", 0);
-            animator.SetFloat("VerticalVelocity", 0);
-            animator.SetFloat("DireccionX", lastLookDirection.x);
-            animator.SetFloat("DireccionY", lastLookDirection.y);
-
-        }
-
         //if (mustPunch)
         //{
         //    mustPunch = false;
@@ -102,7 +116,8 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     public int Damage => damage;
     private void OnPunch(InputAction.CallbackContext context)
     {
-        melee.TryAttack(punchDirection);
+        if (!isInteracting)
+            melee.TryAttack(punchDirection);
     }
 
 
@@ -131,6 +146,8 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     {
         get; private set;
     }
+    
+
     Vector2 lastLookDirection = Vector2.down;
     Camera cam;
 

@@ -4,18 +4,29 @@ using UnityEngine.InputSystem;
 public class PlayerInteraction : MonoBehaviour
 {
     [SerializeField] float range = 1.2f;
-    [SerializeField] InputActionReference interact;
+    private PlayerInput playerInput;
+    private InputAction interactAction;
+
+    private void Awake()
+    {
+        // Wire input actions
+        playerInput = GetComponent<PlayerInput>();
+
+        var actions = playerInput.actions;
+
+        interactAction = actions.FindAction("Interact", true);
+    }
 
     private void OnEnable()
     {
-        interact.action.Enable();
-        interact.action.performed += OnInteractTriggered;
+        interactAction.Enable();
+        interactAction.performed += OnInteractTriggered;
     }
 
     private void OnDisable()
     {
-        interact.action.performed -= OnInteractTriggered;
-        interact.action.Disable();
+        interactAction.performed -= OnInteractTriggered;
+        interactAction.Disable();
     }
 
     private void OnInteractTriggered(InputAction.CallbackContext context)
