@@ -1,14 +1,12 @@
 using System.Collections;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
-using UnityEngine;
 
 public class MeleeAttack : MonoBehaviour
 {
     [SerializeField] float attackRadius = 0.5f;
     [SerializeField] float attackCooldown = 0.5f;
     [SerializeField] float attackRange = 1.0f;
- 
+
 
     IAttacker attacker;
     bool canAttack = true;
@@ -41,7 +39,7 @@ public class MeleeAttack : MonoBehaviour
 
         foreach (RaycastHit2D hit in hits)
         {
-       
+
             var damageable = hit.collider.GetComponentInParent<IDamageable>();
 
 
