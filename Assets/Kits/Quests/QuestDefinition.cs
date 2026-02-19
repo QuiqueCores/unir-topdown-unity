@@ -11,6 +11,6 @@ public class QuestDefinition : ScriptableObject
     public List<QuestObjective> objectives;
 
     [Header("Rewards")]
-    public int experienceReward;
+    public int coinsReward;
     public ItemDefinitionSO itemReward;
 }
