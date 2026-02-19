@@ -107,7 +107,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     public int Damage => damage;
     private void OnPunch(InputAction.CallbackContext context)
     {
-       
+
         melee.TryAttack(punchDirection);
     }
 
