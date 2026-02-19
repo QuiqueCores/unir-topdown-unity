@@ -7,7 +7,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
     [Header("Punch")]
     //[SerializeField] float punchRadius = 0.3f;
-    [SerializeField] float punchRange = 1.0f;
+    [SerializeField] float punchRange = 2.0f;
 
     //IAttacker
     [Header("Attack")]
@@ -107,6 +107,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     public int Damage => damage;
     private void OnPunch(InputAction.CallbackContext context)
     {
+       
         melee.TryAttack(punchDirection);
     }
 
