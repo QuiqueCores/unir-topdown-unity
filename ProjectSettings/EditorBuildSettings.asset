@@ -6,14 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Kits/World/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Kits/World/Scenes/Scene01.unity
+    guid: 902f1b96dfd51ef4f8d955d3b58d7ca6
   - enabled: 1
-    path: Assets/Kits/World/Scenes/SampleScene_Quique.unity
-    guid: a8f12f49dafc34c418e387a0d92f01e7
-  - enabled: 1
-    path: Assets/Kits/World/Scenes/SampleScene_Quique2.unity
-    guid: e96c26f4bcf921c42b2941fad5c8967f
+    path: Assets/Kits/World/Scenes/Scene02.unity
+    guid: 9e7d1c7bccd3b8e4eaf0d8477cf368d5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 277748a027848074da3164d447370b8c, type: 3}
   m_UseUCBPForAssetBundles: 0
