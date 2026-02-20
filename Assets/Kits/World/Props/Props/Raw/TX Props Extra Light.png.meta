@@ -312,6 +312,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: TallRuneColumnLight
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 355
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ed8cb7babeed4a82b26d00883b96a
+      internalID: -2056103622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortRuneColumnLight
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 291
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b315344eb66c1c47943da2be2c29ece
+      internalID: 1562169030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MediumRuneColumnLight
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 451
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0635aa405cb65643ad243f9e26751d9
+      internalID: -2031370233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunePlatformLight
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 171
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3dcbca63e8928419768a223b300905
+      internalID: 1632390680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -326,9 +414,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      MediumRuneColumnLight: -2031370233
+      RunePlatformLight: 1632390680
+      ShortRuneColumnLight: 1562169030
       StoneLampLightUp: 467904100134944420
       StoneStatueLightUp: -6566130288532675478
-      TX Props Extra Light_0: -6219851260746045884
       TX Props Extra Light_1: -2539734662256418845
       TX Props Extra Light_10: -3012015147020183581
       TX Props Extra Light_11: 2680593230738553573
@@ -379,6 +469,7 @@ TextureImporter:
       TX Props Extra Light_6: 6663819914427308433
       TX Props Extra Light_7: -6375968665364658825
       TX Props Extra Light_9: -8762051958065616168
+      TallRuneColumnLight: -6219851260746045884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
