@@ -84,7 +84,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1669654857
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2077256298475721182, guid: 0dec4d8a7619382469bb1ec550bc9a4f, type: 3}
@@ -194,6 +194,7 @@ MonoBehaviour:
   maxLives: 1
   damage: 1
   attackRange: 0.8
+  distance: {x: 0, y: 0}
 --- !u!95 &6786143191426781372
 Animator:
   serializedVersion: 7

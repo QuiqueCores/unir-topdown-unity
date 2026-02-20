@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8bbc56daba1e8b4e94a5984720081bc, type: 3}
+  m_Name: EnMalMomento
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - "Llegas en mal momento. Los Esp\xEDritus se han cansado de nosotros y todo esto
+    desaparecer\xE1 pronto."
+  choices:
+  - responseText: "\xBFY no podemos hacer nada por evitarlo?"
+    nextDialogue: {fileID: 11400000, guid: 6590387828be1f4448252900f39cb74f, type: 2}
+    makesHostile: 0
+  - responseText: "\xBFSe supone que eso es problema m\xEDo?"
+    nextDialogue: {fileID: 0}
+    makesHostile: 1
