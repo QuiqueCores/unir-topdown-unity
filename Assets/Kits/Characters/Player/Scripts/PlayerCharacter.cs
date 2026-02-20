@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerCharacter : BaseCharacter, IAttacker
 {
@@ -30,7 +31,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     protected override void Awake()
     {
         base.Awake();
-        cam = Camera.main;
+        BindCamera();
         melee = GetComponent<MeleeAttack>();
 
         // Wire input actions
@@ -44,6 +45,8 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
     private void OnEnable()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
         moveAction.Enable();
 
         moveAction.started += OnMove;
@@ -56,6 +59,8 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
     private void OnDisable()
     {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+
         moveAction.Disable();
 
         moveAction.started -= OnMove;
@@ -66,9 +71,20 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         attackAction.performed -= OnPunch;
     }
 
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        BindCamera();
+    }
+
     protected override void Update()
     {
         base.Update();
+
+        if (cam == null)
+        {
+            BindCamera();
+            if (cam == null) return;
+        }
 
         if (!isInteracting)
         {
@@ -146,13 +162,20 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     {
         get; private set;
     }
-    
+
 
     Vector2 lastLookDirection = Vector2.down;
     Camera cam;
 
+    public void BindCamera()
+    {
+        cam = Camera.main;
+    }
+
     Vector2 GetMouseLookDirection()
     {
+        if (cam == null) return lookDirection;
+
         Vector3 mouseWorld = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         Vector2 dir = (mouseWorld - transform.position);
 
@@ -173,6 +196,8 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     }
     Vector2 GetPunchDirection()
     {
+        if (cam == null) return punchDirection;
+
         Vector3 mouseWorld = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         Vector2 dir = (mouseWorld - transform.position);
 
