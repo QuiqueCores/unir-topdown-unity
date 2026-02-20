@@ -7,6 +7,8 @@ public class PlayerInteraction : MonoBehaviour
     private PlayerInput playerInput;
     private InputAction interactAction;
 
+    [SerializeField] private StringEventChannelSO promptChannel;
+
     private void Awake()
     {
         // Wire input actions
@@ -28,6 +30,30 @@ public class PlayerInteraction : MonoBehaviour
         interactAction.performed -= OnInteractTriggered;
         interactAction.Disable();
     }
+
+    private void Update()
+    {
+        CheckForInteractable();
+    }
+
+    private void CheckForInteractable()
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, range);
+
+        foreach (Collider2D hit in hits)
+        {
+            IInteractable interactable = hit.GetComponent<IInteractable>();
+
+            if (interactable != null && hit.gameObject != gameObject)
+            {
+                promptChannel.Raise("Press E to interact");
+                return;
+            }
+        }
+
+        promptChannel.Raise("");
+    }
+
 
     private void OnInteractTriggered(InputAction.CallbackContext context)
     {
