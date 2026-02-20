@@ -21,15 +21,15 @@ public class QuestGiver : NPC
 
         if (status == null)
         {
-            this.conversations[0] = giveQuestDialogue;
+            this.SetConversationAt(0, giveQuestDialogue);
         }
         else if (status.isCompleted)
         {
-            this.conversations[0] = ongoingQuestDialogue;
+            this.SetConversationAt(0, ongoingQuestDialogue);
         }
         else
         {
-            this.conversations[0] = completedQuestDialogue;
+            this.SetConversationAt(0, completedQuestDialogue);
         }
     }
 

@@ -136,4 +136,21 @@ public class NPC : BaseInteractable
 
 
     }
+
+    public void SetConversationAt(int index, DialogueSO dialogue)
+    {
+        if (conversations == null)
+        {
+            Debug.LogWarning($"{name}: conversations array is null.", this);
+            return;
+        }
+
+        if (index < 0 || index >= conversations.Length)
+        {
+            Debug.LogWarning($"{name}: conversation index {index} out of range (len {conversations.Length}).", this);
+            return;
+        }
+
+        conversations[index] = dialogue;
+    }
 }
