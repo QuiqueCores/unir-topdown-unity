@@ -10583,9 +10583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9160ab83abd3bd479e3c8f86f982750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MeleeAttack
-  attackRadius: 0.5
-  attackCooldown: 0.5
-  attackRange: 1
+  melee: {fileID: 0}
 --- !u!1 &1907900012
 GameObject:
   m_ObjectHideFlags: 0
