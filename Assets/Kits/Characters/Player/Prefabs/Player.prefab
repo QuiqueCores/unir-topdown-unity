@@ -234,6 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
   range: 1.2
+  promptChannel: {fileID: 11400000, guid: 585d15bc964fd7c419ca907e73c0b1bd, type: 2}
 --- !u!114 &9139853114948270352
 MonoBehaviour:
   m_ObjectHideFlags: 0
