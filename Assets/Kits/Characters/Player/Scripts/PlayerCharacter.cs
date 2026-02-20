@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 using UnityEngine.SceneManagement;
+
 
 public class PlayerCharacter : BaseCharacter, IAttacker
 {
@@ -14,16 +16,16 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     [Header("Attack")]
     [SerializeField] int damage = 1;
 
-    [Header("Respawn")]
-    [SerializeField] Transform respawnPoint;
-
-
     MeleeAttack melee;
     Vector2 rawMove;
     Vector2 punchDirection = Vector2.down;
     private PlayerInput playerInput;
     private InputAction moveAction;
     private InputAction attackAction;
+
+    bool isAttacking = false;
+    [SerializeField] float attackAnimationTime = 0.3f;
+
 
     private bool isInteracting = false;
     public bool IsInteracting { get => isInteracting; set => isInteracting = value; }
@@ -86,7 +88,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
             if (cam == null) return;
         }
 
-        if (!isInteracting)
+        if (!isInteracting && !isAttacking)
         {
             Move(rawMove);
 
@@ -132,8 +134,33 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     public int Damage => damage;
     private void OnPunch(InputAction.CallbackContext context)
     {
-        if (!isInteracting)
-            melee.TryAttack(punchDirection);
+        if (isInteracting || isAttacking)
+            return;
+
+        StartCoroutine(AttackRoutine());
+    }
+
+    IEnumerator AttackRoutine()
+    {
+        isAttacking = true;
+
+        // Bloquear movimiento
+        rawMove = Vector2.zero;
+
+        // Pasar dirección al animator
+        animator.SetFloat("DireccionX", lastLookDirection.x);
+        animator.SetFloat("DireccionY", lastLookDirection.y);
+
+        animator.SetBool("Attack", true);
+
+        // Ejecutar daño
+        melee.TryAttack(lastLookDirection);
+
+        yield return new WaitForSeconds(attackAnimationTime);
+
+        animator.SetBool("Attack", false);
+
+        isAttacking = false;
     }
 
 
@@ -224,17 +251,14 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     {
         Respawn();
     }
-
     private void Respawn()
     {
         currentLives = maxLives;
 
-        transform.position = respawnPoint.position;
+        SceneTransitionManager.Instance.PlacePlayerAtSpawn("Spawn");
 
         if (rb2D != null)
             rb2D.linearVelocity = Vector2.zero;
     }
-
-
 
 }

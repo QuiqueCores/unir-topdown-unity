@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
 {
@@ -16,6 +17,13 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
     protected int currentLives;
     bool isDead = false;
 
+
+    [Header("Damage Feedback")]
+    [SerializeField] float flashDuration = 0.1f;
+    [SerializeField] int flashCount = 2;
+
+    SpriteRenderer spriteRenderer;
+
     protected virtual void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
@@ -23,6 +31,9 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
 
         currentLives = maxLives;
         isDead = false;
+
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
     }
 
     protected virtual void Update()
@@ -60,6 +71,8 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
 
         currentLives -= amount;
 
+        StartCoroutine(FlashRoutine());
+
         if (currentLives <= 0)
             Die();
     }
@@ -69,4 +82,32 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
         Destroy(gameObject);
 
     }
+
+    IEnumerator FlashRoutine()
+    {
+        if (spriteRenderer == null)
+            yield break;
+
+        Color originalColor = spriteRenderer.color;
+
+        for (int i = 0; i < flashCount; i++)
+        {
+           
+            spriteRenderer.color = new Color(
+                originalColor.r,
+                originalColor.g,
+                originalColor.b,
+                0.4f // alpha
+            );
+
+            yield return new WaitForSeconds(flashDuration);
+
+            
+            spriteRenderer.color = originalColor;
+
+            yield return new WaitForSeconds(flashDuration);
+        }
+    }
+
+
 }
