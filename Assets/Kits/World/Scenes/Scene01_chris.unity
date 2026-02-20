@@ -4842,6 +4842,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2801451947284174789, guid: 84cc8798e581942498b0c8e2ebb8f2e4, type: 3}
   m_PrefabInstance: {fileID: 911480293}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &915395740 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4032613824222798781, guid: 84cc8798e581942498b0c8e2ebb8f2e4, type: 3}
+  m_PrefabInstance: {fileID: 401546995}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
 --- !u!1001 &955433123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39361,14 +39372,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1059608346148221194, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1059608346148221194, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1946836230446178820, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
+      propertyPath: altarLight
+      value: 
+      objectReference: {fileID: 915395740}
     - target: {fileID: 4622041037947995694, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
       propertyPath: m_Name
       value: Altar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972747488418485389, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972747488418485389, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6004993688440589610, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
       propertyPath: altarLight
       value: 
       objectReference: {fileID: 592617656}
+    - target: {fileID: 8550098595566584802, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7769265
+      objectReference: {fileID: 0}
+    - target: {fileID: 8550098595566584802, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
+      propertyPath: m_Size.y
+      value: 0.62642574
+      objectReference: {fileID: 0}
+    - target: {fileID: 8550098595566584802, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
+      propertyPath: m_Offset.x
+      value: -3.965534
+      objectReference: {fileID: 0}
+    - target: {fileID: 8550098595566584802, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
+      propertyPath: m_Offset.y
+      value: -2.3456287
+      objectReference: {fileID: 0}
     - target: {fileID: 8620979371488352569, guid: 00e82d49b813910438b3cbfb3e551b6d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.35
