@@ -44,11 +44,26 @@ TagManager:
   - name: Background
     uniqueID: 2527576061
     locked: 0
+  - name: Ground
+    uniqueID: 632257361
+    locked: 0
+  - name: GroundDecor
+    uniqueID: 496936207
+    locked: 0
   - name: Characters
     uniqueID: 2625312439
     locked: 0
-  - name: CloudShadows
+  - name: PropsLow
     uniqueID: 3718580525
+    locked: 0
+  - name: PropsHigh
+    uniqueID: 3441086443
+    locked: 0
+  - name: Effects
+    uniqueID: 881717441
+    locked: 0
+  - name: UI
+    uniqueID: 2188946365
     locked: 0
   m_RenderingLayers:
   - Default
