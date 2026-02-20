@@ -5,29 +5,60 @@ using System;
 public class QuestManager : MonoBehaviour
 {
     public static QuestManager instance;
-
     public List<QuestStatus> activeQuests = new List<QuestStatus>();
 
-    public static event Action OnQuestLogUpdated;
+    public static event Action OnQuestProgressUpdated;
 
-    private void Awake()
+    private void Awake() { /* Singleton logic */ }
+
+    private void OnEnable()
     {
-        if (instance == null) instance = this;
-        else Destroy(gameObject);
+        InventorySystem.OnItemAddedStatic += HandleItemAdded;
     }
 
-    public void AcceptQuest(QuestDefinition quest)
+    private void OnDisable()
     {
-        if (activeQuests.Exists(q => q.QuestData == quest)) return;
-
-        activeQuests.Add(new QuestStatus(quest));
-        Debug.Log($"Challenge accepted: {quest.questName}");
-
-        OnQuestLogUpdated?.Invoke();
+        InventorySystem.OnItemAddedStatic -= HandleItemAdded;
     }
 
-    public void UpdateProgress(QuestObjective objective, int amount)
+    private void HandleItemAdded(string itemId, int amount)
     {
-        OnQuestLogUpdated?.Invoke();
+        foreach (QuestStatus status in activeQuests)
+        {
+            if (status.isCompleted) continue;
+
+            for (int i = 0; i < status.QuestData.objectives.Count; i++)
+            {
+                if (status.QuestData.objectives[i] is CollectionObjective colObj)
+                {
+                    if (colObj.itemToCollect.ItemId == itemId)
+                    {
+                        status.currentAmounts[i] += amount;
+                        Debug.Log($"Progress: {status.currentAmounts[i]}/{colObj.requiredAmount}");
+                    }
+                }
+            }
+            CheckCompletion(status);
+        }
+        OnQuestProgressUpdated?.Invoke();
+    }
+
+    private void CheckCompletion(QuestStatus status)
+    {
+        bool allObjectivesDone = true;
+        for (int i = 0; i < status.QuestData.objectives.Count; i++)
+        {
+            if (status.currentAmounts[i] < status.QuestData.objectives[i].requiredAmount)
+            {
+                allObjectivesDone = false;
+                break;
+            }
+        }
+
+        if (allObjectivesDone)
+        {
+            status.isCompleted = true;
+            Debug.Log($"<color=green>Misión Completada: {status.QuestData.questName}</color>");
+        }
     }
 }
