@@ -14,6 +14,8 @@ public class InventorySystem : MonoBehaviour
     private readonly Dictionary<string, int> itemCounts = new();
     private readonly Dictionary<string, ItemDefinitionSO> itemDefinitions = new();
 
+    public static event Action<string, int> OnItemAddedStatic;
+
     public event Action OnInventoryChanged;
 
     private void Awake()
@@ -89,6 +91,7 @@ public class InventorySystem : MonoBehaviour
         if (!silent)
         {
             OnInventoryChanged?.Invoke();
+            OnItemAddedStatic?.Invoke(itemId, amount);
         }
         return true;
     }

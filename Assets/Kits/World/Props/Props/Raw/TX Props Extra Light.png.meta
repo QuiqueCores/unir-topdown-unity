@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: 5b99c245b8aa8c848bf72bd4054f2f77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6219851260746045884
+    second: TX Props Extra Light_0
+  - first:
+      213: -2539734662256418845
+    second: TX Props Extra Light_1
+  - first:
+      213: -204837084237242618
+    second: TX Props Extra Light_2
+  - first:
+      213: -2078269800135454192
+    second: TX Props Extra Light_3
+  - first:
+      213: -8828607272478279909
+    second: TX Props Extra Light_4
+  - first:
+      213: -581695171843207847
+    second: TX Props Extra Light_5
+  - first:
+      213: 6663819914427308433
+    second: TX Props Extra Light_6
+  - first:
+      213: -6375968665364658825
+    second: TX Props Extra Light_7
+  - first:
+      213: -6566130288532675478
+    second: TX Props Extra Light_8
+  - first:
+      213: -8762051958065616168
+    second: TX Props Extra Light_9
+  - first:
+      213: -3012015147020183581
+    second: TX Props Extra Light_10
+  - first:
+      213: 2680593230738553573
+    second: TX Props Extra Light_11
+  - first:
+      213: 3287054318727146445
+    second: TX Props Extra Light_12
+  - first:
+      213: 2392616060418820709
+    second: TX Props Extra Light_13
+  - first:
+      213: -2837490684653216215
+    second: TX Props Extra Light_14
+  - first:
+      213: 1235225159725721860
+    second: TX Props Extra Light_15
+  - first:
+      213: -6736062167529001873
+    second: TX Props Extra Light_16
+  - first:
+      213: 467904100134944420
+    second: TX Props Extra Light_17
+  - first:
+      213: 7898359204851218021
+    second: TX Props Extra Light_18
+  - first:
+      213: 2759233558560679250
+    second: TX Props Extra Light_19
+  - first:
+      213: 1229511165569632191
+    second: TX Props Extra Light_20
+  - first:
+      213: 4865937913370945551
+    second: TX Props Extra Light_21
+  - first:
+      213: 2261632461413334021
+    second: TX Props Extra Light_22
+  - first:
+      213: -7814488569169798530
+    second: TX Props Extra Light_23
+  - first:
+      213: -1781065265823899731
+    second: TX Props Extra Light_24
+  - first:
+      213: 7160639168409567104
+    second: TX Props Extra Light_25
+  - first:
+      213: -1487224425159185341
+    second: TX Props Extra Light_26
+  - first:
+      213: 1770769007788887429
+    second: TX Props Extra Light_27
+  - first:
+      213: -9184867884897359695
+    second: TX Props Extra Light_28
+  - first:
+      213: 6041939363631809336
+    second: TX Props Extra Light_29
+  - first:
+      213: -7539075168396330712
+    second: TX Props Extra Light_30
+  - first:
+      213: -6978689666276757138
+    second: TX Props Extra Light_31
+  - first:
+      213: -317803567616938812
+    second: TX Props Extra Light_32
+  - first:
+      213: 173595323168908850
+    second: TX Props Extra Light_33
+  - first:
+      213: -7348384584362150527
+    second: TX Props Extra Light_34
+  - first:
+      213: 5414118226922245443
+    second: TX Props Extra Light_35
+  - first:
+      213: 2365813124103268439
+    second: TX Props Extra Light_36
+  - first:
+      213: 243615489342712673
+    second: TX Props Extra Light_37
+  - first:
+      213: -2387009077417108216
+    second: TX Props Extra Light_38
+  - first:
+      213: -310940135508703084
+    second: TX Props Extra Light_39
+  - first:
+      213: -6909065955976266193
+    second: TX Props Extra Light_40
+  - first:
+      213: 7154949835714214962
+    second: TX Props Extra Light_41
+  - first:
+      213: 4144064460850328413
+    second: TX Props Extra Light_42
+  - first:
+      213: -4091978697634646711
+    second: TX Props Extra Light_43
+  - first:
+      213: -3699364396540700680
+    second: TX Props Extra Light_44
+  - first:
+      213: 4031005721390677485
+    second: TX Props Extra Light_45
+  - first:
+      213: 7054798025042191992
+    second: TX Props Extra Light_46
+  - first:
+      213: -318179927488498491
+    second: TX Props Extra Light_47
+  - first:
+      213: 4560833726069642069
+    second: TX Props Extra Light_48
+  - first:
+      213: 9214017263030038009
+    second: TX Props Extra Light_49
+  - first:
+      213: 8013052801919269861
+    second: TX Props Extra Light_50
+  - first:
+      213: 2865316282166240488
+    second: TX Props Extra Light_51
+  - first:
+      213: -5849971887141051337
+    second: TX Props Extra Light_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StoneStatueLightUp
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 419
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64a31b9a4b60e4a0800000000000000
+      internalID: -6566130288532675478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneLampLightUp
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 357
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aefd7dcc445e7600800000000000000
+      internalID: 467904100134944420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallRuneColumnLight
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 355
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ed8cb7babeed4a82b26d00883b96a
+      internalID: -2056103622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortRuneColumnLight
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 291
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b315344eb66c1c47943da2be2c29ece
+      internalID: 1562169030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MediumRuneColumnLight
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 451
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0635aa405cb65643ad243f9e26751d9
+      internalID: -2031370233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunePlatformLight
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 171
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3dcbca63e8928419768a223b300905
+      internalID: 1632390680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 73e3f96d729d6cc468568b0e7dd9888c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MediumRuneColumnLight: -2031370233
+      RunePlatformLight: 1632390680
+      ShortRuneColumnLight: 1562169030
+      StoneLampLightUp: 467904100134944420
+      StoneStatueLightUp: -6566130288532675478
+      TX Props Extra Light_1: -2539734662256418845
+      TX Props Extra Light_10: -3012015147020183581
+      TX Props Extra Light_11: 2680593230738553573
+      TX Props Extra Light_12: 3287054318727146445
+      TX Props Extra Light_13: 2392616060418820709
+      TX Props Extra Light_14: -2837490684653216215
+      TX Props Extra Light_15: 1235225159725721860
+      TX Props Extra Light_16: -6736062167529001873
+      TX Props Extra Light_18: 7898359204851218021
+      TX Props Extra Light_19: 2759233558560679250
+      TX Props Extra Light_2: -204837084237242618
+      TX Props Extra Light_20: 1229511165569632191
+      TX Props Extra Light_21: 4865937913370945551
+      TX Props Extra Light_22: 2261632461413334021
+      TX Props Extra Light_23: -7814488569169798530
+      TX Props Extra Light_24: -1781065265823899731
+      TX Props Extra Light_25: 7160639168409567104
+      TX Props Extra Light_26: -1487224425159185341
+      TX Props Extra Light_27: 1770769007788887429
+      TX Props Extra Light_28: -9184867884897359695
+      TX Props Extra Light_29: 6041939363631809336
+      TX Props Extra Light_3: -2078269800135454192
+      TX Props Extra Light_30: -7539075168396330712
+      TX Props Extra Light_31: -6978689666276757138
+      TX Props Extra Light_32: -317803567616938812
+      TX Props Extra Light_33: 173595323168908850
+      TX Props Extra Light_34: -7348384584362150527
+      TX Props Extra Light_35: 5414118226922245443
+      TX Props Extra Light_36: 2365813124103268439
+      TX Props Extra Light_37: 243615489342712673
+      TX Props Extra Light_38: -2387009077417108216
+      TX Props Extra Light_39: -310940135508703084
+      TX Props Extra Light_4: -8828607272478279909
+      TX Props Extra Light_40: -6909065955976266193
+      TX Props Extra Light_41: 7154949835714214962
+      TX Props Extra Light_42: 4144064460850328413
+      TX Props Extra Light_43: -4091978697634646711
+      TX Props Extra Light_44: -3699364396540700680
+      TX Props Extra Light_45: 4031005721390677485
+      TX Props Extra Light_46: 7054798025042191992
+      TX Props Extra Light_47: -318179927488498491
+      TX Props Extra Light_48: 4560833726069642069
+      TX Props Extra Light_49: 9214017263030038009
+      TX Props Extra Light_5: -581695171843207847
+      TX Props Extra Light_50: 8013052801919269861
+      TX Props Extra Light_51: 2865316282166240488
+      TX Props Extra Light_52: -5849971887141051337
+      TX Props Extra Light_6: 6663819914427308433
+      TX Props Extra Light_7: -6375968665364658825
+      TX Props Extra Light_9: -8762051958065616168
+      TallRuneColumnLight: -6219851260746045884
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
