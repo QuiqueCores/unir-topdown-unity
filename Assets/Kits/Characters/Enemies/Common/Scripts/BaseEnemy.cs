@@ -36,7 +36,14 @@ public abstract class BaseEnemy : BaseCharacter, IAttacker
 
         if (distance.magnitude <= attackRange)
         {
-            melee.TryAttack(distance.normalized);
+            Vector2 dir = distance.normalized;
+
+            animator.SetFloat("DireccionX", dir.x);
+            animator.SetFloat("DireccionY", dir.y);
+
+            animator.SetTrigger("Attack");
+            melee.TryAttack(dir);
         }
+
     }
 }
