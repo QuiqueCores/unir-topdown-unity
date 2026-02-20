@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 146413804}
   - component: {fileID: 146413803}
   - component: {fileID: 146413802}
-  - component: {fileID: 146413801}
+  - component: {fileID: 146413805}
   m_Layer: 0
   m_Name: motw_11
   m_TagString: Untagged
@@ -138,19 +138,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &146413801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146413800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd76bef0136f52c4886cb708c78e15ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TestQuestGiver
-  questToGive: {fileID: 11400000, guid: 79dcc0d4b0d054842ab6142a102fe817, type: 2}
 --- !u!70 &146413802
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -262,6 +249,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &146413805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146413800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d653514d843cfa45822fb54557c5012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestGiver
+  quest: {fileID: 11400000, guid: 79dcc0d4b0d054842ab6142a102fe817, type: 2}
 --- !u!1001 &166186001
 PrefabInstance:
   m_ObjectHideFlags: 0

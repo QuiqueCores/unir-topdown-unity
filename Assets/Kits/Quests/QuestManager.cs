@@ -5,11 +5,29 @@ using System;
 public class QuestManager : MonoBehaviour
 {
     public static QuestManager instance;
-    public List<QuestStatus> activeQuests = new List<QuestStatus>();
 
-    public static event Action OnQuestProgressUpdated;
+    [SerializeField] private List<QuestStatus> activeQuests = new List<QuestStatus>();
+    public List<QuestStatus> ActiveQuests => activeQuests;
 
-    private void Awake() { /* Singleton logic */ }
+    public static event Action OnQuestLogUpdated;
+
+    private void Awake()
+    {
+        if (instance == null) instance = this;
+        else Destroy(gameObject);
+    }
+
+    public void AcceptQuest(QuestDefinition quest)
+    {
+        if (activeQuests.Exists(q => q.QuestData == quest)) return;
+
+        QuestStatus newStatus = new QuestStatus(quest);
+        activeQuests.Add(newStatus);
+
+        Debug.Log($"<color=green>Quest Accepted: {quest.questName}</color>");
+
+        OnQuestLogUpdated?.Invoke();
+    }
 
     private void OnEnable()
     {
@@ -34,31 +52,26 @@ public class QuestManager : MonoBehaviour
                     if (colObj.itemToCollect.ItemId == itemId)
                     {
                         status.currentAmounts[i] += amount;
-                        Debug.Log($"Progress: {status.currentAmounts[i]}/{colObj.requiredAmount}");
+                        CheckCompletion(status);
                     }
                 }
             }
-            CheckCompletion(status);
         }
-        OnQuestProgressUpdated?.Invoke();
+        OnQuestLogUpdated?.Invoke();
     }
 
     private void CheckCompletion(QuestStatus status)
     {
-        bool allObjectivesDone = true;
+        bool allDone = true;
         for (int i = 0; i < status.QuestData.objectives.Count; i++)
         {
             if (status.currentAmounts[i] < status.QuestData.objectives[i].requiredAmount)
             {
-                allObjectivesDone = false;
+                allDone = false;
                 break;
             }
         }
-
-        if (allObjectivesDone)
-        {
-            status.isCompleted = true;
-            Debug.Log($"<color=green>Misión Completada: {status.QuestData.questName}</color>");
-        }
+        status.isCompleted = allDone;
+        if (allDone) Debug.Log($"<color=blue>¡Quest completed!</color>");
     }
 }

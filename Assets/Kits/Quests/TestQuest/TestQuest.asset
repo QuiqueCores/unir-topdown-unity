@@ -17,4 +17,5 @@ MonoBehaviour:
   objectives:
   - {fileID: 11400000, guid: dfcbd7a79a60d5e44b59bc97b449e18f, type: 2}
   coinsReward: 0
-  itemReward: {fileID: 0}
+  itemReward: {fileID: 11400000, guid: a05a7d18f25b396488c528d4516e3f9e, type: 2}
+  itemRewardAmount: 1
