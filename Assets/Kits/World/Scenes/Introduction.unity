@@ -3536,6 +3536,8 @@ MonoBehaviour:
   priority: 0
   side: 1
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
@@ -3551,9 +3553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9160ab83abd3bd479e3c8f86f982750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MeleeAttack
-  attackRadius: 0.5
-  attackCooldown: 0.5
-  attackRange: 1
+  melee: {fileID: 0}
 --- !u!114 &372923061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4120,9 +4120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9160ab83abd3bd479e3c8f86f982750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MeleeAttack
-  attackRadius: 0.5
-  attackCooldown: 0.5
-  attackRange: 1
+  melee: {fileID: 0}
 --- !u!95 &533650604
 Animator:
   serializedVersion: 7
@@ -4161,6 +4159,8 @@ MonoBehaviour:
   priority: 0
   side: 1
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
@@ -4549,9 +4549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9160ab83abd3bd479e3c8f86f982750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MeleeAttack
-  attackRadius: 0.5
-  attackCooldown: 0.5
-  attackRange: 1
+  melee: {fileID: 0}
 --- !u!114 &592173725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4568,6 +4566,8 @@ MonoBehaviour:
   priority: 0
   side: 1
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
@@ -5139,7 +5139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d2f07469bfb574cbe837aaa472db8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScenePortal
-  targetSceneName: Scene02
+  targetSceneName: Isle
   targetSpawnId: Spawn
   requirePlayerTag: 1
   playerTag: Player
@@ -6413,6 +6413,8 @@ MonoBehaviour:
   priority: 0
   side: 0
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
@@ -6959,6 +6961,8 @@ MonoBehaviour:
   priority: 0
   side: 0
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
@@ -35396,6 +35400,8 @@ MonoBehaviour:
   priority: 0
   side: 0
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
@@ -37546,6 +37552,8 @@ MonoBehaviour:
   priority: 0
   side: 0
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
@@ -40379,6 +40387,8 @@ MonoBehaviour:
   priority: 0
   side: 0
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
@@ -40523,6 +40533,8 @@ MonoBehaviour:
   priority: 0
   side: 0
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
@@ -40633,6 +40645,8 @@ MonoBehaviour:
   priority: 0
   side: 0
   maxLives: 1
+  flashDuration: 0.1
+  flashCount: 2
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}

@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d2f07469bfb574cbe837aaa472db8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScenePortal
-  targetSceneName: Scene02
+  targetSceneName: Isle
   targetSpawnId: TempleDoor
   requirePlayerTag: 1
   playerTag: Player
