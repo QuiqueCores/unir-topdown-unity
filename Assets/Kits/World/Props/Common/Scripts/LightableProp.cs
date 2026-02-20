@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -7,7 +8,7 @@ public class LightableProp : MonoBehaviour, ILightable
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Sprite lightedSprite;
     [SerializeField] private Sprite notLightedSprite;
-    [SerializeField] private Light2D lightObject;
+    [SerializeField] private List<Light2D> lights = new List<Light2D>();
 
     [Header("Optional Shadow")]
     [SerializeField] private SpriteRenderer shadowSpriteRenderer;
@@ -20,7 +21,9 @@ public class LightableProp : MonoBehaviour, ILightable
     private void Reset()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        if (lightObject == null) lightObject = GetComponentInChildren<Light2D>();
+
+        lights.Clear();
+        GetComponentsInChildren(true, lights);
     }
 
     private void Awake()
@@ -34,8 +37,7 @@ public class LightableProp : MonoBehaviour, ILightable
         if (spriteRenderer != null && lightedSprite != null)
             spriteRenderer.sprite = lightedSprite;
 
-        if (lightObject != null)
-            lightObject.enabled = true;
+        SetLightsEnabled(true);
 
         SetShadowOpacity(1f);
     }
@@ -45,10 +47,21 @@ public class LightableProp : MonoBehaviour, ILightable
         if (spriteRenderer != null && notLightedSprite != null)
             spriteRenderer.sprite = notLightedSprite;
 
-        if (lightObject != null)
-            lightObject.enabled = false;
+        SetLightsEnabled(false);
 
         SetShadowOpacity(shadowOpacityWhenOff);
+    }
+
+    private void SetLightsEnabled(bool enabled)
+    {
+        if (lights == null) return;
+
+        for (int i = 0; i < lights.Count; i++)
+        {
+            var l = lights[i];
+            if (l == null) continue;
+            l.enabled = enabled;
+        }
     }
 
     private void SetShadowOpacity(float alpha)

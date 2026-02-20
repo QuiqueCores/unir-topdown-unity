@@ -156,7 +156,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 4153905213148142561}
   lightedSprite: {fileID: 467904100134944420, guid: 5b99c245b8aa8c848bf72bd4054f2f77, type: 3}
   notLightedSprite: {fileID: -1165778088226280915, guid: e8ae69343872cdd4d957bdc7db78432e, type: 3}
-  lightObject: {fileID: 4032613824222798781}
+  lights:
+  - {fileID: 4032613824222798781}
   shadowSpriteRenderer: {fileID: 7100659138266880335}
   shadowOpacityWhenOff: 0.25
   initiallyTurnedOn: 0
