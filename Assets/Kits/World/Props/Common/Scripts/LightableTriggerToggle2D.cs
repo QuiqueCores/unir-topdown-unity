@@ -81,7 +81,7 @@ public class LightableTriggerToggle2D : MonoBehaviour
             }
         }
 
-        if (_collider != null)
+        if (_collider != null && disableColliderAfterUse)
             _collider.enabled = false;
     }
 
