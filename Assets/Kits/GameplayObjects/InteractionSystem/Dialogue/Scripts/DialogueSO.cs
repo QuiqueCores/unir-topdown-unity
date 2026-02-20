@@ -6,5 +6,5 @@ public class DialogueSO : ScriptableObject
     [TextArea(2, 5)]
     public string[] lines;
     public DialogueChoice[] choices;
-    
+
 }

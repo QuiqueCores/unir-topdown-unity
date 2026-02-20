@@ -133,7 +133,7 @@ public class NPC : BaseInteractable
         this.GetComponent<NPC>().enabled = false;
         enemyBehaviour.enabled = true;
 
-        
-        
+
+
     }
 }
