@@ -16,10 +16,6 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     [Header("Attack")]
     [SerializeField] int damage = 1;
 
-    [Header("Respawn")]
-    [SerializeField] Transform respawnPoint;
-
-
     MeleeAttack melee;
     Vector2 rawMove;
     Vector2 punchDirection = Vector2.down;
@@ -255,17 +251,14 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     {
         Respawn();
     }
-
     private void Respawn()
     {
         currentLives = maxLives;
 
-        transform.position = respawnPoint.position;
+        SceneTransitionManager.Instance.PlacePlayerAtSpawn("Spawn");
 
         if (rb2D != null)
             rb2D.linearVelocity = Vector2.zero;
     }
-
-
 
 }

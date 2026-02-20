@@ -7,4 +7,9 @@ public class PlayerPersistent : PersistentSingleton<PlayerPersistent>
         base.Awake();
         Character = GetComponentInChildren<PlayerCharacter>();
     }
+    private void Start()
+    {
+        SceneTransitionManager.Instance.PlacePlayerAtSpawn("Spawn");
+    }
+
 }

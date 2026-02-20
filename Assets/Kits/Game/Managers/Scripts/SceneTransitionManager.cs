@@ -68,7 +68,7 @@ public class SceneTransitionManager : PersistentSingleton<SceneTransitionManager
         isTransitioning = false;
     }
 
-    private void PlacePlayerAtSpawn(string spawnId)
+    public void PlacePlayerAtSpawn(string spawnId)
     {
         var spawns = FindObjectsByType<SpawnPoint>(FindObjectsSortMode.None);
         SpawnPoint match = null;
