@@ -194,6 +194,7 @@ MonoBehaviour:
   maxLives: 1
   damage: 1
   attackRange: 0.8
+  distance: {x: 0, y: 0}
 --- !u!95 &6786143191426781372
 Animator:
   serializedVersion: 7
@@ -228,6 +229,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9160ab83abd3bd479e3c8f86f982750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MeleeAttack
-  attackRadius: 0.5
-  attackCooldown: 0.5
-  attackRange: 1
+  melee: {fileID: 11400000, guid: 01920dcf8f55b6d4ca5af143d9cc114d, type: 2}
