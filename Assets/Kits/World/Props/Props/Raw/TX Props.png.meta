@@ -964,7 +964,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_43
+      name: BigRock
       rect:
         serializedVersion: 2
         x: 3
@@ -986,7 +986,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_44
+      name: Rock1
       rect:
         serializedVersion: 2
         x: 10
@@ -1008,7 +1008,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_45
+      name: Rock2
       rect:
         serializedVersion: 2
         x: 40
@@ -1030,7 +1030,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_46
+      name: Rock3
       rect:
         serializedVersion: 2
         x: 68
@@ -1052,7 +1052,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_47
+      name: Rock4
       rect:
         serializedVersion: 2
         x: 100
@@ -1074,7 +1074,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_48
+      name: Rock5
       rect:
         serializedVersion: 2
         x: 130
@@ -1096,7 +1096,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_49
+      name: Rock6
       rect:
         serializedVersion: 2
         x: 162
@@ -1118,7 +1118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_50
+      name: Brick1
       rect:
         serializedVersion: 2
         x: 231
@@ -1140,7 +1140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_51
+      name: Brick2
       rect:
         serializedVersion: 2
         x: 263
@@ -1162,7 +1162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Props_52
+      name: Brick3
       rect:
         serializedVersion: 2
         x: 289
@@ -1354,8 +1354,12 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Barrel: -5485413844462568078
+      BigRock: 4037136158352757955
       BoxBig: 4334242479205817162
       BoxSmall: -3949213220010832002
+      Brick1: 4042411042510048081
+      Brick2: 1838313524879157533
+      Brick3: 1435152747246214799
       ChestClose: -4746224472117266517
       ChestOpen: -859513755973794298
       DebugBlock: -1978707978806593757
@@ -1366,6 +1370,12 @@ TextureImporter:
       Jar3: -2290064878625095150
       MediumRuneColumn: 6286687536768951764
       MediumRuneColumnRunes: 818659902
+      Rock1: -4725852135258441693
+      Rock2: 3965377167729571953
+      Rock3: 9018729057510950640
+      Rock4: 1765707885380466773
+      Rock5: 5966473068272983084
+      Rock6: 491907057074443852
       RuinedStoneWell: 2679863423283401720
       RunePlatform: -3526906408505785437
       RunePlatformRuneBottom: -44403047
@@ -1397,16 +1407,6 @@ TextureImporter:
       TX Props_35: -6568481390458680246
       TX Props_36: 7388503698291035636
       TX Props_4: 4826855114610044307
-      TX Props_43: 4037136158352757955
-      TX Props_44: -4725852135258441693
-      TX Props_45: 3965377167729571953
-      TX Props_46: 9018729057510950640
-      TX Props_47: 1765707885380466773
-      TX Props_48: 5966473068272983084
-      TX Props_49: 491907057074443852
-      TX Props_50: 4042411042510048081
-      TX Props_51: 1838313524879157533
-      TX Props_52: 1435152747246214799
       TX Props_8: -3680518950676972392
       TallRuneColumn: -1533463876049055087
       TallRuneColumnRunes: -524289103
