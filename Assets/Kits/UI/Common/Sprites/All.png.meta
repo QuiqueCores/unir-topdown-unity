@@ -1293,6 +1293,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: VerticalSliderHandle
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 279
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 9, z: 4, w: 9}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45d54ff6f3bc104597070dbd1ae94a2
+      internalID: 571799891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1316,6 +1338,7 @@ TextureImporter:
       HealthBarBackground: 595698009
       HealthBarBorder: 1731665994
       HealthBarFill: 713245320
+      VerticalSliderHandle: 571799891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
