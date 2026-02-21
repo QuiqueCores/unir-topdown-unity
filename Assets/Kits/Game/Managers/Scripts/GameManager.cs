@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameManager : PersistentSingleton<GameManager>
 {
-    public GameState State { get; private set; } = GameState.Playing;
+    public GameState State { get; private set; } = GameState.MainMenu;
 
     public event Action<GameState> OnStateChanged;
 
@@ -17,6 +17,7 @@ public class GameManager : PersistentSingleton<GameManager>
 
         switch (State)
         {
+            case GameState.MainMenu:
             case GameState.Playing:
                 Time.timeScale = 1f;
                 break;

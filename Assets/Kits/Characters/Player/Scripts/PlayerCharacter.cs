@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
@@ -24,6 +23,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     private PlayerInput playerInput;
     private InputAction moveAction;
     private InputAction attackAction;
+    private InputAction togglePauseAction;
 
     bool isAttacking = false;
     [SerializeField] float attackAnimationTime = 0.3f;
@@ -48,6 +48,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
         moveAction = actions.FindAction("Move", true);
         attackAction = actions.FindAction("Attack", true);
+        togglePauseAction = actions.FindAction("TogglePause", true);
     }
 
     private void OnEnable()
@@ -62,6 +63,9 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
         attackAction.Enable();
         attackAction.performed += OnPunch;
+
+        togglePauseAction.Enable();
+        togglePauseAction.performed += OnTogglePause;
     }
 
     private void OnDisable()
@@ -76,6 +80,9 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
         attackAction.Disable();
         attackAction.performed -= OnPunch;
+
+        togglePauseAction.Disable();
+        togglePauseAction.performed -= OnTogglePause;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -152,13 +159,13 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         // Bloquear movimiento
         rawMove = Vector2.zero;
 
-        // Pasar dirección al animator
+        // Pasar direcciï¿½n al animator
         animator.SetFloat("DireccionX", lastLookDirection.x);
         animator.SetFloat("DireccionY", lastLookDirection.y);
 
         animator.SetBool("Attack", true);
 
-        // Ejecutar daño
+        // Ejecutar daï¿½o
         melee.TryAttack(lastLookDirection);
         audioSource.PlayOneShot(attackSound);
 
@@ -265,6 +272,18 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
         if (rb2D != null)
             rb2D.linearVelocity = Vector2.zero;
+    }
+
+    private void OnTogglePause(InputAction.CallbackContext context)
+    {
+        if (GameManager.Instance.State == GameState.Playing)
+        {
+            GameManager.Instance.SetState(GameState.Paused);
+        }
+        else if (GameManager.Instance.State == GameState.Paused)
+        {
+            GameManager.Instance.SetState(GameState.Playing);
+        }
     }
 
     private void OnInteractPressed(InputAction.CallbackContext context)

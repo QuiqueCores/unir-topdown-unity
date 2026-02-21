@@ -144,8 +144,8 @@ public class InventoryUIScreen : MonoBehaviour
         {
             detailsImage.sprite = null;
             detailsImage.color = new Color(1f, 1f, 1f, 0f); ;
-            detailsNameText.text = "Inventory is empty";
-            detailsDescriptionText.text = "";
+            detailsNameText.text = "";
+            detailsDescriptionText.text = "Inventario vacío.";
         }
     }
 

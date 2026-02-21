@@ -39,7 +39,7 @@ public class QuestTrackerHUD : MonoBehaviour
         {
             var line = Instantiate(linePrefab, activeListParent);
             line.text = "No hay misiones activas";
-            line.fontSize = 24;
+            line.fontSize = 36;
             spawned.Add(line);
             return;
         }
@@ -50,7 +50,7 @@ public class QuestTrackerHUD : MonoBehaviour
 
             var line = Instantiate(linePrefab, activeListParent);
             line.text = BuildLine(qs);
-            line.fontSize = 24;
+            line.fontSize = 36;
             spawned.Add(line);
         }
 
@@ -58,13 +58,13 @@ public class QuestTrackerHUD : MonoBehaviour
         {
             var line = Instantiate(linePrefab, activeListParent);
             line.text = $"... y {active.Count - count} misiones más.";
-            line.fontSize = 22;
+            line.fontSize = 32;
             spawned.Add(line);
         }
 
         var lastLine = Instantiate(linePrefab, activeListParent);
         lastLine.text = "Pulsa \"<b>Q</b>\" para abrir el diario de misiones.";
-        lastLine.fontSize = 20;
+        lastLine.fontSize = 28;
         spawned.Add(lastLine);
     }
 
