@@ -46,7 +46,7 @@ public class PlayerInteraction : MonoBehaviour
 
             if (interactable != null && hit.gameObject != gameObject)
             {
-                promptChannel.Raise("Press E to interact");
+                promptChannel.Raise("Pulsa \"<b>E</b>\" para interactuar");
                 return;
             }
         }
