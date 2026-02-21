@@ -1214,7 +1214,7 @@ TextureImporter:
         width: 32
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 3, y: 6, z: 3, w: 6}
       customData: 
       outline: []
@@ -1223,6 +1223,72 @@ TextureImporter:
       bones: []
       spriteID: c42bd4554f5c7f441b68bb76ff43d072
       internalID: -1886066662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBarBorder
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 226
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 5, z: 6, w: 5}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a25d4128ad87114fb8fc53d6a819fa4
+      internalID: 1731665994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBarFill
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 230
+        width: 30
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d03484bf9a1f24f9b9f47e4ccaf9ea
+      internalID: 713245320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBarBackground
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 226
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 5, z: 6, w: 5}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3d59fec711d2e4d8759fe7247e869f
+      internalID: 595698009
       vertices: []
       indices: 
       edges: []
@@ -1247,6 +1313,9 @@ TextureImporter:
     nameFileIdTable:
       Button1: -1494541665
       Button2: 2019197108
+      HealthBarBackground: 595698009
+      HealthBarBorder: 1731665994
+      HealthBarFill: 713245320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
