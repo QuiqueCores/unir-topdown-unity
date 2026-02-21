@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
+
 public class AltarInteractable : BaseInteractable
 {
 
@@ -11,6 +12,12 @@ public class AltarInteractable : BaseInteractable
     [SerializeField] GameObject altarOff;
     [SerializeField] GameObject altarOn;
     [SerializeField] Light2D altarLight;
+
+    [Header("Reward")]
+
+    [SerializeField] GameObject rewardPrefab;
+
+    [SerializeField] Transform rewardSpawnPoint;
 
     bool activated;
 
@@ -35,7 +42,22 @@ public class AltarInteractable : BaseInteractable
         if (altarLight != null)
             altarLight.enabled = true;
 
+        SpawnReward();
+
         Debug.Log("Altar activated");
+    }
+
+    void SpawnReward()
+    {
+        if (rewardPrefab == null)
+            return;
+
+        Vector3 pos = rewardSpawnPoint != null
+            ? rewardSpawnPoint.position
+            : transform.position;
+
+        Instantiate(rewardPrefab, transform.position, Quaternion.identity);
+
     }
 
 }
