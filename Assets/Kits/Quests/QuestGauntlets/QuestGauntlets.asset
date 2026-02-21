@@ -18,7 +18,7 @@ MonoBehaviour:
     feliz."
   objectives:
   - {fileID: 11400000, guid: c1cc72cb28b059f40ae45d007b396397, type: 2}
-  itemReward1: {fileID: 0}
+  itemReward1: {fileID: 11400000, guid: 49d40a6bf300dac4195c35ad8d1c4bba, type: 2}
   itemReward1Amount: 1
   itemReward2: {fileID: 0}
   itemReward2Amount: 1
