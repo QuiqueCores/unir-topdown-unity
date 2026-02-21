@@ -26,6 +26,9 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     bool isAttacking = false;
     [SerializeField] float attackAnimationTime = 0.3f;
 
+    [SerializeField] float interactRadius = 1.2f;
+    [SerializeField] LayerMask interactableLayer;
+
 
     private bool isInteracting = false;
     public bool IsInteracting { get => isInteracting; set => isInteracting = value; }
@@ -261,4 +264,43 @@ public class PlayerCharacter : BaseCharacter, IAttacker
             rb2D.linearVelocity = Vector2.zero;
     }
 
+    private void OnInteractPressed(InputAction.CallbackContext context)
+    {
+        if (isAttacking) return;
+
+        TryInteract();
+    }
+
+    void TryInteract()
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
+            transform.position,
+            interactRadius,
+            interactableLayer
+        );
+
+        BaseInteractable best = null;
+        float bestScore = -Mathf.Infinity;
+
+        foreach (var hit in hits)
+        {
+            BaseInteractable interactable = hit.GetComponent<BaseInteractable>();
+            if (interactable == null)
+                continue;
+
+            Vector2 toTarget = (hit.transform.position - transform.position).normalized;
+            float score = Vector2.Dot(lastLookDirection, toTarget);
+
+            if (score > bestScore)
+            {
+                bestScore = score;
+                best = interactable;
+            }
+        }
+
+        if (best != null && bestScore > 0.5f)
+        {
+            best.Interact(gameObject);
+        }
+    }
 }
