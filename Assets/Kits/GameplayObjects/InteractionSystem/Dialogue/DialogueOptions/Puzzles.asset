@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8bbc56daba1e8b4e94a5984720081bc, type: 3}
+  m_Name: Puzzles
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - "\xBFQuieres saber como se resuelve este puzzle?"
+  - "Lo siento, no tienes suficientes medallas para que obedezca tus \xF3rdenes."
+  - "Si por alg\xFAn milagro lo consigues, puedes seguir adelante."
+  - "La oscuridad no se ir\xE1, solo sabr\xE1 que eres digno."
+  choices: []

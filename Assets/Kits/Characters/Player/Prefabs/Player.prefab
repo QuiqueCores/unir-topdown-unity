@@ -302,4 +302,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 339b6f598a2fa93489eeeb75ced9ef22, type: 2}
   - {fileID: 11400000, guid: b5838cb198c6c3845aca20cb8533b251, type: 2}
   - {fileID: 11400000, guid: 477b4dbf5bf6ff446950200b3f786f5c, type: 2}
+  - {fileID: 11400000, guid: 49d40a6bf300dac4195c35ad8d1c4bba, type: 2}
   initialItems: []

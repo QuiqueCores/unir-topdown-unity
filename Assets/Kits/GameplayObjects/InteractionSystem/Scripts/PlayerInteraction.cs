@@ -1,5 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class PlayerInteraction : MonoBehaviour
 {
@@ -60,23 +61,77 @@ public class PlayerInteraction : MonoBehaviour
         PerformInteraction();
     }
 
+    //private void PerformInteraction()
+    //{
+    //    Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, range);
+    //
+    //    foreach (Collider2D hit in hits)
+    //    {
+    //        IInteractable interactable = hit.GetComponent<IInteractable>();
+    //
+    //        if (interactable != null && hit.gameObject != gameObject)
+    //        {
+    //            Debug.Log($"<color=green>Interface detectada en:</color> {hit.gameObject.name}");
+    //            interactable.Interact(this.gameObject);
+    //            return;
+    //        }
+    //    }
+    //
+    //    Debug.Log("No IInteractable found nearby.");
+    //}
+
     private void PerformInteraction()
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, range);
+        PlayerCharacter player = GetComponent<PlayerCharacter>();
+        Vector2 dir = player.lookDirection;
 
-        foreach (Collider2D hit in hits)
+        Debug.Log("==== INTERACT PRESSED ====");
+
+        if (dir == Vector2.zero)
+        {
+            Debug.Log("Dirección cero → CANCELADO");
+            return;
+        }
+
+        Vector2 targetCell = (Vector2)transform.position + dir;
+
+        Debug.Log("Celda objetivo: " + targetCell);
+
+        Collider2D[] hits = Physics2D.OverlapBoxAll(
+            targetCell,
+            Vector2.one * 0.9f,
+            0f
+        );
+
+        Debug.Log("Colliders detectados: " + hits.Length);
+
+        IInteractable closestInteractable = null;
+        float closestDistance = float.MaxValue;
+
+        foreach (var hit in hits)
         {
             IInteractable interactable = hit.GetComponent<IInteractable>();
+            if (interactable == null)
+                continue;
 
-            if (interactable != null && hit.gameObject != gameObject)
+            float dist = Vector2.Distance(transform.position, hit.transform.position);
+
+            if (dist < closestDistance)
             {
-                Debug.Log($"<color=green>Interface detectada en:</color> {hit.gameObject.name}");
-                interactable.Interact(this.gameObject);
-                return;
+                closestDistance = dist;
+                closestInteractable = interactable;
             }
         }
 
-        Debug.Log("No IInteractable found nearby.");
+        if (closestInteractable != null)
+        {
+            Debug.Log("Interactuando con: " + ((MonoBehaviour)closestInteractable).name);
+            closestInteractable.Interact(gameObject);
+        }
+        else
+        {
+            Debug.Log("No se encontró IInteractable válido");
+        }
     }
 
     private void OnDrawGizmosSelected()
