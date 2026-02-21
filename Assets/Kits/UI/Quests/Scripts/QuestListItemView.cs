@@ -14,7 +14,7 @@ public class QuestListItemView : MonoBehaviour, ISelectHandler, IPointerEnterHan
     public void Bind(QuestStatus status)
     {
         BoundStatus = status;
-        string statusText = "[En progreso] ";
+        string statusText = "[En curso] ";
         if (status.isCompleted)
         {
             statusText = "[Completada] ";
