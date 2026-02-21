@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a90567fbe438541b8c5e79c7b21358, type: 3}
+  m_Name: Item_KeyCombat
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDefinitionSO
+  itemId: keycombat
+  displayName: Llave Plateada
+  description: "Una llave brillante cedida por el propio Esp\xEDritu de la Culpa."
+  icon: {fileID: 1702562019767708734, guid: 82fa92b42c9c37f4aa75b83eb554e3e9, type: 3}
+  stackable: 0
+  maxStack: 1

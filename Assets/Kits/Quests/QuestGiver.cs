@@ -75,6 +75,8 @@ public class QuestGiver : NPC
                 inventory.Add(quest.itemReward2, quest.itemReward2Amount);
             }
             QuestManager.instance.ActiveQuests.RemoveAll(q => q.QuestData == quest);
+
+            QuestManager.instance.NotifyQuestLogUpdated();
         }
     }
 }

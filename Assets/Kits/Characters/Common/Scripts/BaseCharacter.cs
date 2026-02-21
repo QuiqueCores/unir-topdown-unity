@@ -12,6 +12,8 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
     protected Rigidbody2D rb2D;
     protected Animator animator;
 
+    [SerializeField] protected AudioSource audioSource;
+
     [Header("Lives")]
     [SerializeField] protected int maxLives = 1;
     protected int currentLives;
