@@ -17,7 +17,7 @@ MonoBehaviour:
     y repartida por la isla. Ay\xFAdale a recuperarla para proteger el Limiar."
   objectives:
   - {fileID: 11400000, guid: f8e6df8f4c5d6c6489c98d28dfc41cf5, type: 2}
-  itemReward1: {fileID: 0}
+  itemReward1: {fileID: 11400000, guid: b5838cb198c6c3845aca20cb8533b251, type: 2}
   itemReward1Amount: 1
   itemReward2: {fileID: 0}
   itemReward2Amount: 1
