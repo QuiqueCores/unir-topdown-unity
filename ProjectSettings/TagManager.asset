@@ -50,14 +50,14 @@ TagManager:
   - name: GroundDecor
     uniqueID: 496936207
     locked: 0
-  - name: Characters
-    uniqueID: 2625312439
-    locked: 0
   - name: PropsLow
     uniqueID: 3718580525
     locked: 0
   - name: PropsHigh
     uniqueID: 3441086443
+    locked: 0
+  - name: Characters
+    uniqueID: 2625312439
     locked: 0
   - name: Effects
     uniqueID: 881717441

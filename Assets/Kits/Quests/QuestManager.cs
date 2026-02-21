@@ -92,4 +92,9 @@ public class QuestManager : MonoBehaviour
         }
         CheckCompletion(status);
     }
+
+    public void NotifyQuestLogUpdated()
+    {
+        OnQuestLogUpdated?.Invoke();
+    }
 }
