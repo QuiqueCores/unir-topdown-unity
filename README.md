@@ -27,8 +27,6 @@ El proyecto consiste en un **juego 2D con vista top-down**.
 
 ## 👥 Equipo de desarrollo
 
-> _(Completar)_
-
 | Nombre                     | Rol         | GitHub                                         |
 | -------------------------- | ----------- | ---------------------------------------------- |
 | Enrique A. Cores Rodríguez | Programador | [@QuiqueCores](https://github.com/QuiqueCores) |
