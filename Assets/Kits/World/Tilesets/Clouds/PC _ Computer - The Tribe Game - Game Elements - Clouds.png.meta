@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: 74bbffe68a8c01d4b92bded7d8ee594c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1097809178115467418
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_0
+  - first:
+      213: 1110456658929960324
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_1
+  - first:
+      213: 5957664215337625222
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_2
+  - first:
+      213: -8222366365362042882
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_3
+  - first:
+      213: -4179217507676872737
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_4
+  - first:
+      213: -8133889151039279456
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_5
+  - first:
+      213: -5909130987328041670
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_6
+  - first:
+      213: 5769728424314229038
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_7
+  - first:
+      213: -2370536369484926281
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_8
+  - first:
+      213: 6708830246803011857
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_9
+  - first:
+      213: 4290612764118965270
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_10
+  - first:
+      213: 1029574011309177139
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_11
+  - first:
+      213: 5171597749939241804
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_12
+  - first:
+      213: 4291310757731186350
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_13
+  - first:
+      213: 2878122684525291879
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_14
+  - first:
+      213: -2036756965861243075
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_15
+  - first:
+      213: -2818825733583795954
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_16
+  - first:
+      213: 6408350227314549033
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_17
+  - first:
+      213: 2991548301267233915
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_18
+  - first:
+      213: 415354409919652759
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_19
+  - first:
+      213: -6067503327601676113
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_20
+  - first:
+      213: -5392080314083211548
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_21
+  - first:
+      213: 3812061492222023135
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_22
+  - first:
+      213: -5008862532135974822
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_23
+  - first:
+      213: -4786549379214772009
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_24
+  - first:
+      213: -3523230200043645291
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_25
+  - first:
+      213: 7058177934507430429
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_26
+  - first:
+      213: 2911387851659017318
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_27
+  - first:
+      213: 6778259269536348090
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_28
+  - first:
+      213: 8130843926438080645
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_29
+  - first:
+      213: 2473235795791104540
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_30
+  - first:
+      213: 8106608001751339027
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_31
+  - first:
+      213: 8729151110394731491
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_32
+  - first:
+      213: -4382098672046698766
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_33
+  - first:
+      213: -5937065809269178874
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_34
+  - first:
+      213: -5053725501590076557
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_35
+  - first:
+      213: 6422455305105470957
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_36
+  - first:
+      213: -7853039335521584547
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_37
+  - first:
+      213: -8584805247108808971
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_38
+  - first:
+      213: -1418744387911046324
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_39
+  - first:
+      213: -8493394455802059317
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_40
+  - first:
+      213: 2359277857226001844
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_41
+  - first:
+      213: 6888088843824514827
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_42
+  - first:
+      213: 4649662471864834088
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_43
+  - first:
+      213: -6167182220173735541
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_44
+  - first:
+      213: -1552090472516175108
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_45
+  - first:
+      213: 4501715633400707460
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_46
+  - first:
+      213: 7879125040704707387
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_47
+  - first:
+      213: -5525493190648972590
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_48
+  - first:
+      213: 8635588593130321238
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_49
+  - first:
+      213: -6969915981972527007
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_50
+  - first:
+      213: -9158415517688261547
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_51
+  - first:
+      213: -2137561939919344708
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_52
+  - first:
+      213: 178615211238246521
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_53
+  - first:
+      213: 1203748848373518061
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_54
+  - first:
+      213: -598675790368415411
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_55
+  - first:
+      213: -4506353896504383644
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_56
+  - first:
+      213: 8323185641909929215
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_57
+  - first:
+      213: 5760726690368772819
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_58
+  - first:
+      213: -1902187930585191883
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_59
+  - first:
+      213: 60033118873860558
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_60
+  - first:
+      213: -4393391030187982424
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_61
+  - first:
+      213: -6896413746058230662
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_62
+  - first:
+      213: -5214269813922807042
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_63
+  - first:
+      213: 4226499458796151487
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_64
+  - first:
+      213: -4842620982928007213
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_65
+  - first:
+      213: 2057074677877128730
+    second: PC _ Computer - The Tribe Game - Game Elements - Clouds_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 661
+        width: 498
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a986cbc81a33c3f00800000000000000
+      internalID: 1097809178115467418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_1
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 959
+        width: 129
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485ccf5a272296f00800000000000000
+      internalID: 1110456658929960324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 890
+        width: 208
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686614ee900eda250800000000000000
+      internalID: 5957664215337625222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_3
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 899
+        width: 231
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7c97bca5944ed80800000000000000
+      internalID: -8222366365362042882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 830
+        width: 207
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf93d7b1df6006c0800000000000000
+      internalID: -4179217507676872737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_5
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 832
+        width: 136
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae66ed89ee9e1f80800000000000000
+      internalID: -8133889151039279456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_6
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 825
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d0f09ccac8efda0800000000000000
+      internalID: -5909130987328041670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_7
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 838
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2159bdbe61321050800000000000000
+      internalID: 5769728424314229038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 770
+        width: 80
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2f4b94bb92a1fd0800000000000000
+      internalID: -2370536369484926281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_9
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 776
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119f617809d8a1d50800000000000000
+      internalID: 6708830246803011857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_10
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 789
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c511a83915b8b30800000000000000
+      internalID: 4290612764118965270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_11
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 766
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339be0ebb18c94e00800000000000000
+      internalID: 1029574011309177139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_12
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 779
+        width: 67
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c438656d0c435c740800000000000000
+      internalID: 5171597749939241804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_13
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 709
+        width: 136
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 49, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea63167d56ccd8b30800000000000000
+      internalID: 4291310757731186350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_14
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 730
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769af17255521f720800000000000000
+      internalID: 2878122684525291879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_15
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 741
+        width: 84
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37c90ca45cfbb3e0800000000000000
+      internalID: -2036756965861243075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 663
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09020a1ee481e8d0800000000000000
+      internalID: -2818825733583795954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_17
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 581
+        width: 311
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921a06f24980fe850800000000000000
+      internalID: 6408350227314549033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_18
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 681
+        width: 120
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ce471845d148920800000000000000
+      internalID: 2991548301267233915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_19
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 609
+        width: 145
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793272b92a2a3c500800000000000000
+      internalID: 415354409919652759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_20
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 616
+        width: 81
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa03dccded5ebcba0800000000000000
+      internalID: -6067503327601676113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_21
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 556
+        width: 125
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e681b6d58b7b25b0800000000000000
+      internalID: -5392080314083211548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_22
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 622
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5d6d1eab927e430800000000000000
+      internalID: 3812061492222023135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_23
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 550
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58854ba012fc7ab0800000000000000
+      internalID: -5008862532135974822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_24
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 551
+        width: 110
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8790823b2c29db0800000000000000
+      internalID: -4786549379214772009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_25
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 528
+        width: 103
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5965878ccc8fa1fc0800000000000000
+      internalID: -3523230200043645291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_26
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 562
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12d0d38f6fa3f160800000000000000
+      internalID: 7058177934507430429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_27
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 489
+        width: 180
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cf58d63d3576820800000000000000
+      internalID: 2911387851659017318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_28
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 505
+        width: 181
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7763494e6311e50800000000000000
+      internalID: 6778259269536348090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_29
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 505
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580fb77d87f86d070800000000000000
+      internalID: 8130843926438080645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_30
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 513
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ac8ed3ad2b25220800000000000000
+      internalID: 2473235795791104540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_31
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 528
+        width: 49
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3105ab5e605708070800000000000000
+      internalID: 8106608001751339027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_32
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 410
+        width: 374
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebd8c59fac242970800000000000000
+      internalID: 8729151110394731491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_33
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 442
+        width: 129
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe02f1a978af23c0800000000000000
+      internalID: -4382098672046698766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_34
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 478
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60eb4663a1e4b9da0800000000000000
+      internalID: -5937065809269178874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_35
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 453
+        width: 97
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373046d9e6f8dd9b0800000000000000
+      internalID: -5053725501590076557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_36
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 468
+        width: 49
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de572a68215212950800000000000000
+      internalID: 6422455305105470957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_37
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 473
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5af01fd456640390800000000000000
+      internalID: -7853039335521584547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_38
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 418
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe7b2cac15acd880800000000000000
+      internalID: -8584805247108808971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_39
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 439
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bab7bfe7b9f4ce0800000000000000
+      internalID: -1418744387911046324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_40
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 408
+        width: 81
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc565ac0eb6612a80800000000000000
+      internalID: -8493394455802059317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_41
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 430
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd866e06b6ddb020800000000000000
+      internalID: 2359277857226001844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_42
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 369
+        width: 125
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07cd7d0f48679f50800000000000000
+      internalID: 6888088843824514827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_43
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 382
+        width: 129
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828d7f8126be68040800000000000000
+      internalID: 4649662471864834088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_44
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 359
+        width: 57
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8980752274c96aa0800000000000000
+      internalID: -6167182220173735541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_45
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 380
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfab76640fdd57ae0800000000000000
+      internalID: -1552090472516175108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_46
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 342
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489fba8748e497e30800000000000000
+      internalID: 4501715633400707460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_47
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 362
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bd618aa76485d60800000000000000
+      internalID: 7879125040704707387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_48
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 377
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da378ae7318153b0800000000000000
+      internalID: -5525493190648972590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_49
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 156
+        width: 586
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655b2f77216c7d770800000000000000
+      internalID: 8635588593130321238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_50
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 302
+        width: 97
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168a534b752e54f90800000000000000
+      internalID: -6969915981972527007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_51
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 317
+        width: 49
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55414ca2c95c6e080800000000000000
+      internalID: -9158415517688261547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_52
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 231
+        width: 195
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb66bdadbad552e0800000000000000
+      internalID: -2137561939919344708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_53
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 139
+        width: 195
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978465996919a7200800000000000000
+      internalID: 178615211238246521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_54
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 206
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deec61a233394b010800000000000000
+      internalID: 1203748848373518061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_55
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 191
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41e6736a8311b7f0800000000000000
+      internalID: -598675790368415411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_56
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 151
+        width: 97
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467a8aeb1073671c0800000000000000
+      internalID: -4506353896504383644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_57
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 132
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff44ca14e35e18370800000000000000
+      internalID: 8323185641909929215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_58
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 146
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dada8b376632ff40800000000000000
+      internalID: 5760726690368772819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_59
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 113
+        width: 114
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a2f65c7221a95e0800000000000000
+      internalID: -1902187930585191883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_60
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 148
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec93c35bdc745d000800000000000000
+      internalID: 60033118873860558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_61
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 116
+        width: 99
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1024e922a8703c0800000000000000
+      internalID: -4393391030187982424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_62
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 88
+        width: 74
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74041a9c340b40a0800000000000000
+      internalID: -6896413746058230662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_63
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 122
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2c61a0b3133a7b0800000000000000
+      internalID: -5214269813922807042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_64
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 76
+        width: 49
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2ece46dda87aa30800000000000000
+      internalID: 4226499458796151487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_65
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 60
+        width: 207
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df19b29fdd8bccb0800000000000000
+      internalID: -4842620982928007213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - The Tribe Game - Game Elements - Clouds_66
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 207
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e315b45823c8c10800000000000000
+      internalID: 2057074677877128730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8d6dc2309392eea438c4fb9bb9f9a968
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_0: 1097809178115467418
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_1: 1110456658929960324
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_10: 4290612764118965270
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_11: 1029574011309177139
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_12: 5171597749939241804
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_13: 4291310757731186350
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_14: 2878122684525291879
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_15: -2036756965861243075
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_16: -2818825733583795954
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_17: 6408350227314549033
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_18: 2991548301267233915
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_19: 415354409919652759
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_2: 5957664215337625222
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_20: -6067503327601676113
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_21: -5392080314083211548
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_22: 3812061492222023135
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_23: -5008862532135974822
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_24: -4786549379214772009
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_25: -3523230200043645291
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_26: 7058177934507430429
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_27: 2911387851659017318
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_28: 6778259269536348090
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_29: 8130843926438080645
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_3: -8222366365362042882
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_30: 2473235795791104540
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_31: 8106608001751339027
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_32: 8729151110394731491
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_33: -4382098672046698766
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_34: -5937065809269178874
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_35: -5053725501590076557
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_36: 6422455305105470957
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_37: -7853039335521584547
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_38: -8584805247108808971
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_39: -1418744387911046324
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_4: -4179217507676872737
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_40: -8493394455802059317
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_41: 2359277857226001844
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_42: 6888088843824514827
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_43: 4649662471864834088
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_44: -6167182220173735541
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_45: -1552090472516175108
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_46: 4501715633400707460
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_47: 7879125040704707387
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_48: -5525493190648972590
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_49: 8635588593130321238
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_5: -8133889151039279456
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_50: -6969915981972527007
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_51: -9158415517688261547
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_52: -2137561939919344708
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_53: 178615211238246521
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_54: 1203748848373518061
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_55: -598675790368415411
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_56: -4506353896504383644
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_57: 8323185641909929215
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_58: 5760726690368772819
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_59: -1902187930585191883
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_6: -5909130987328041670
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_60: 60033118873860558
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_61: -4393391030187982424
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_62: -6896413746058230662
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_63: -5214269813922807042
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_64: 4226499458796151487
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_65: -4842620982928007213
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_66: 2057074677877128730
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_7: 5769728424314229038
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_8: -2370536369484926281
+      PC _ Computer - The Tribe Game - Game Elements - Clouds_9: 6708830246803011857
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
