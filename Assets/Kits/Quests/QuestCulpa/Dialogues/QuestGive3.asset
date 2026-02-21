@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8bbc56daba1e8b4e94a5984720081bc, type: 3}
+  m_Name: QuestGive3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - "No eres m\xE1s que otro repudiado ego\xEDsta, sois todos iguales."
+  - "Prueba de vuestra inmundicia es el echo de que los dos altares del este y oeste
+    lleven d\xE9cadas apagados sin que nadie se molestase en encenderlos."
+  choices: []

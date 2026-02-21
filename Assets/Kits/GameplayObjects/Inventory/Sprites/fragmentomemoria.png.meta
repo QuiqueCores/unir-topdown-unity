@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 038a90c216dc67048bfbd8608fcf2900
+guid: 2cbab55d764c8c04db90fec0bc1aa15f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7451537198214605567
-    second: soulfire_torch_0
+      213: -7603846316276215655
+    second: fragmentomemoria_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: soulfire_torch_0
+      name: fragmentomemoria_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 1
         y: 1
-        width: 26
+        width: 30
         height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1051fcde562d69890800000000000000
-      internalID: -7451537198214605567
+      spriteID: 99091bfef06b97690800000000000000
+      internalID: -7603846316276215655
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      soulfire_torch_0: -7451537198214605567
+      fragmentomemoria_0: -7603846316276215655
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

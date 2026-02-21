@@ -56,7 +56,7 @@ public class AltarInteractable : BaseInteractable
             ? rewardSpawnPoint.position
             : transform.position;
 
-        Instantiate(rewardPrefab, transform.position, Quaternion.identity);
+        Instantiate(rewardPrefab, pos, Quaternion.identity);
 
     }
 

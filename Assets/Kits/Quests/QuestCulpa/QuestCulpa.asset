@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7651d0db24e10a419aef79d59ae6e7e, type: 3}
+  m_Name: QuestCulpa
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "Iluminaci\xF3n de los altares"
+  questStory: "Enciende los dos altares de los esp\xEDritus con la Antorcha del Fuego
+    de \xC1nimas y recoge los S\xEDmbolos del Favor Espectral que te otorgan."
+  objectives:
+  - {fileID: 11400000, guid: 7ef79b0f43947154594f4fd96d0c56f4, type: 2}
+  itemReward1: {fileID: 11400000, guid: 98ccc60f87934d34ab559337b1c3ed4b, type: 2}
+  itemReward1Amount: 1
+  itemReward2: {fileID: 0}
+  itemReward2Amount: 1

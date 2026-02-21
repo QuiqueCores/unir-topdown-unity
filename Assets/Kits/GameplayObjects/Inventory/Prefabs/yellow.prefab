@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a3adfc54db554409ecc7d34b0f15d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemPickup
-  item: {fileID: 11400000, guid: 8caae5ac26ca34d45b4d877c3ef2b033, type: 2}
+  item: {fileID: 11400000, guid: e1fe830560fed364c81a108db458ce76, type: 2}
   amount: 1
 --- !u!212 &743281377548573755
 SpriteRenderer:
