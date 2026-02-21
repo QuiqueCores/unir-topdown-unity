@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6742997917178867066}
   - component: {fileID: 1929128029849299032}
   - component: {fileID: 659937427212704183}
+  - component: {fileID: 284318560976379069}
   m_Layer: 0
   m_Name: QuestListItemView
   m_TagString: Untagged
@@ -121,6 +122,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &284318560976379069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7580502226190242808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c20b36a374fa024468bdf712482db6c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestListItemView
+  titleText: {fileID: 1427859599258254626}
 --- !u!1 &8035817877684523658
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +235,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
