@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 2c12f5b02e7bc144eb8a8cbdee257a98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5571843815308779447
+    second: Ribbons17_0
+  - first:
+      213: -4914825981591553890
+    second: Ribbons17_1
+  - first:
+      213: -1744047646161341595
+    second: Ribbons17_2
+  - first:
+      213: -4378986725233158378
+    second: Ribbons17_3
+  - first:
+      213: 8823214185631059920
+    second: Ribbons17_4
+  - first:
+      213: 5161178093069121077
+    second: Ribbons17_5
+  - first:
+      213: -4143276261762186297
+    second: Ribbons17_6
+  - first:
+      213: 2121133467222352450
+    second: Ribbons17_7
+  - first:
+      213: 4912202142200808066
+    second: Ribbons17_8
+  - first:
+      213: -9188281903261956671
+    second: Ribbons17_9
+  - first:
+      213: 8327448547009226375
+    second: Ribbons17_10
+  - first:
+      213: 4790230044620565780
+    second: Ribbons17_11
+  - first:
+      213: 8313829616753742135
+    second: Ribbons17_12
+  - first:
+      213: 7610359256660679339
+    second: Ribbons17_13
+  - first:
+      213: -5397365420355977284
+    second: Ribbons17_14
+  - first:
+      213: -9221986285251672613
+    second: Ribbons17_15
+  - first:
+      213: -7847684536412330962
+    second: Ribbons17_16
+  - first:
+      213: 5673666228829780207
+    second: Ribbons17_17
+  - first:
+      213: -3182534580915208349
+    second: Ribbons17_18
+  - first:
+      213: -7651354278872571261
+    second: Ribbons17_19
+  - first:
+      213: 825472135518834447
+    second: Ribbons17_20
+  - first:
+      213: -988883789945996487
+    second: Ribbons17_21
+  - first:
+      213: -1232981229192300541
+    second: Ribbons17_22
+  - first:
+      213: -4180200904089915283
+    second: Ribbons17_23
+  - first:
+      213: 6379210180889268010
+    second: Ribbons17_24
+  - first:
+      213: -9047714718699285742
+    second: Ribbons17_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RibbonMainTitle
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 66
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 31, y: 13, z: 31, w: 13}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfdf6bdd6a235d40800000000000000
+      internalID: 5571843815308779447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6517f5afc723a0f4cb9fcc4d3e817ac1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RibbonMainTitle: 5571843815308779447
+      Ribbons17_1: -4914825981591553890
+      Ribbons17_10: 8327448547009226375
+      Ribbons17_11: 4790230044620565780
+      Ribbons17_12: 8313829616753742135
+      Ribbons17_13: 7610359256660679339
+      Ribbons17_14: -5397365420355977284
+      Ribbons17_15: -9221986285251672613
+      Ribbons17_16: -7847684536412330962
+      Ribbons17_17: 5673666228829780207
+      Ribbons17_18: -3182534580915208349
+      Ribbons17_19: -7651354278872571261
+      Ribbons17_2: -1744047646161341595
+      Ribbons17_20: 825472135518834447
+      Ribbons17_21: -988883789945996487
+      Ribbons17_22: -1232981229192300541
+      Ribbons17_23: -4180200904089915283
+      Ribbons17_24: 6379210180889268010
+      Ribbons17_25: -9047714718699285742
+      Ribbons17_3: -4378986725233158378
+      Ribbons17_4: 8823214185631059920
+      Ribbons17_5: 5161178093069121077
+      Ribbons17_6: -4143276261762186297
+      Ribbons17_7: 2121133467222352450
+      Ribbons17_8: 4912202142200808066
+      Ribbons17_9: -9188281903261956671
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
