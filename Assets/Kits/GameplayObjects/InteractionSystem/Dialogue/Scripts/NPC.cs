@@ -153,4 +153,9 @@ public class NPC : BaseInteractable
 
         conversations[index] = dialogue;
     }
+
+    public bool IsDialogueOpen()
+    {
+        return dialogueBox != null && dialogueBox.activeSelf;
+    }
 }

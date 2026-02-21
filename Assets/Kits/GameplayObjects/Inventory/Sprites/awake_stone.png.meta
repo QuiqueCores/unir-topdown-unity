@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 038a90c216dc67048bfbd8608fcf2900
+guid: 88fcdc0a30822fa498c635c54f166176
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7451537198214605567
-    second: soulfire_torch_0
+      213: 8505663550431149366
+    second: awake_stone_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: soulfire_torch_0
+      name: awake_stone_0
       rect:
         serializedVersion: 2
         x: 3
-        y: 1
+        y: 3
         width: 26
-        height: 30
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1051fcde562d69890800000000000000
-      internalID: -7451537198214605567
+      spriteID: 63dbf662fef2a0670800000000000000
+      internalID: 8505663550431149366
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      soulfire_torch_0: -7451537198214605567
+      awake_stone_0: 8505663550431149366
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

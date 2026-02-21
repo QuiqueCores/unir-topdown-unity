@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Item_Torch
   m_EditorClassIdentifier: Assembly-CSharp::ItemDefinitionSO
   itemId: torch
-  displayName: SoulFire Torch
-  description: Torch to light up the altars
+  displayName: "Antorcha del Fuego de \xC1nimas"
+  description: "Antorcha que permite iluminar los altares de los Esp\xEDritus"
   icon: {fileID: -7451537198214605567, guid: 038a90c216dc67048bfbd8608fcf2900, type: 3}
   stackable: 0
   maxStack: 1

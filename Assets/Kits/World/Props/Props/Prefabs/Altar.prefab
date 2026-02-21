@@ -33,6 +33,7 @@ Transform:
   m_Children:
   - {fileID: 6127981085867991143}
   - {fileID: 7255630039531484070}
+  - {fileID: 35851331966994303}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &913364451396032204
@@ -52,7 +53,7 @@ MonoBehaviour:
   altarOn: {fileID: 7583075214243618086}
   altarLight: {fileID: 0}
   rewardPrefab: {fileID: 6315165210212468112, guid: 55af20a3530bb574c9101beae3e41aa0, type: 3}
-  rewardSpawnPoint: {fileID: 0}
+  rewardSpawnPoint: {fileID: 35851331966994303}
 --- !u!61 &1628096665281513277
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -99,6 +100,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.7769265, y: 0.62642574}
   m_EdgeRadius: 0
+--- !u!1 &5773470828420115949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 35851331966994303}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &35851331966994303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5773470828420115949}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.98, y: -4.72, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4055112942809549534}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7583075214243618086
 GameObject:
   m_ObjectHideFlags: 0

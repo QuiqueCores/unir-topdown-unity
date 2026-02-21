@@ -74,4 +74,22 @@ public class QuestManager : MonoBehaviour
         status.isCompleted = allDone;
         if (allDone) Debug.Log($"<color=blue>¡Quest completed!</color>");
     }
+
+    public void SyncQuestWithInventory(QuestStatus status)
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player == null) return;
+
+        InventorySystem inventory = player.GetComponentInChildren<InventorySystem>();
+        if (inventory == null) return;
+
+        for (int i = 0; i < status.QuestData.objectives.Count; i++)
+        {
+            if (status.QuestData.objectives[i] is CollectionObjective colObj)
+            {
+                status.currentAmounts[i] = inventory.GetCount(colObj.itemToCollect.ItemId);
+            }
+        }
+        CheckCompletion(status);
+    }
 }

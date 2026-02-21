@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8a90567fbe438541b8c5e79c7b21358, type: 3}
-  m_Name: Item_yellow
+  m_Name: KeyCombat
   m_EditorClassIdentifier: Assembly-CSharp::ItemDefinitionSO
-  itemId: yellow
-  displayName: "S\xEDmbolo del Favor Espectral"
-  description: "Sello prueba de que un altar de los Esp\xEDritus ha sido iluminado."
-  icon: {fileID: -8425141836431729757, guid: a5a38b5f42a65a44cbd54802150e5269, type: 3}
-  stackable: 1
-  maxStack: 2
+  itemId: keycombat
+  displayName: Llave
+  description: 
+  icon: {fileID: 0}
+  stackable: 0
+  maxStack: 1

@@ -11,7 +11,9 @@ public class QuestDefinition : ScriptableObject
     public List<QuestObjective> objectives;
 
     [Header("Rewards")]
-    public int coinsReward;
-    public ItemDefinitionSO itemReward;
-    public int itemRewardAmount = 1;
+    //public int coinsReward;
+    public ItemDefinitionSO itemReward1;
+    public int itemReward1Amount = 1;
+    public ItemDefinitionSO itemReward2;
+    public int itemReward2Amount = 1;
 }
