@@ -1,6 +1,7 @@
-using UnityEngine;
-using UnityEngine.InputSystem;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 
@@ -15,6 +16,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     //IAttacker
     [Header("Attack")]
     [SerializeField] int damage = 1;
+    [SerializeField] AudioClip attackSound;
 
     MeleeAttack melee;
     Vector2 rawMove;
@@ -158,6 +160,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
         // Ejecutar daño
         melee.TryAttack(lastLookDirection);
+        audioSource.PlayOneShot(attackSound);
 
         yield return new WaitForSeconds(attackAnimationTime);
 
