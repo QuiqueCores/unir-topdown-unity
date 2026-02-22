@@ -140,7 +140,7 @@ public class QuestLogUIScreen : MonoBehaviour
 
         if (active == null || active.Count == 0)
         {
-            SetEmptyDetails("No hay misiones activas", "Acepta una misi�n para que aparezca aqu�.", "");
+            SetEmptyDetails("No hay misiones activas", "Acepta una misión para que aparezca aquí.", "");
             return;
         }
 
@@ -213,7 +213,7 @@ public class QuestLogUIScreen : MonoBehaviour
 
         if (status.isCompleted)
         {
-            lines.Add("    \u25AB Vuelve a hablar con quien te encomend� esta misi�n para recibir la recompensa.");
+            lines.Add("    \u25AB Vuelve a hablar con quien te encomendó esta misión para recibir la recompensa.");
         }
 
         return string.Join("\n", lines);

@@ -172,13 +172,13 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         // Bloquear movimiento
         rawMove = Vector2.zero;
 
-        // Pasar direcci�n al animator
+        // Pasar dirección al animator
         animator.SetFloat("DireccionX", lastLookDirection.x);
         animator.SetFloat("DireccionY", lastLookDirection.y);
 
         animator.SetBool("Attack", true);
 
-        // Ejecutar da�o
+        // Ejecutar daño
         melee.TryAttack(lastLookDirection);
         audioSource.PlayOneShot(attackSound);
 
