@@ -19,6 +19,7 @@ public class GameManager : PersistentSingleton<GameManager>
         {
             case GameState.MainMenu:
             case GameState.Playing:
+            case GameState.Dialogue:
                 Time.timeScale = 1f;
                 break;
 
