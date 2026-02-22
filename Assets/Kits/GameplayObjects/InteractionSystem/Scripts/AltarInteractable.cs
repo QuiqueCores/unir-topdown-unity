@@ -10,6 +10,8 @@ public class AltarInteractable : BaseInteractable
     [SerializeField] GameObject altarOff;
     [SerializeField] GameObject altarOn;
     [SerializeField] Light2D altarLight;
+    [SerializeField] protected AudioSource audioSource;
+    [SerializeField] AudioClip[] sounds;
 
     [Header("Reward")]
 
@@ -39,6 +41,8 @@ public class AltarInteractable : BaseInteractable
 
         if (altarLight != null)
             altarLight.enabled = true;
+
+        audioSource.PlayOneShot(sounds[0]);
 
         SpawnReward();
 
