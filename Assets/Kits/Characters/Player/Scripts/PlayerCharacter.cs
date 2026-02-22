@@ -349,6 +349,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         }
     }
 
+    private GameState previousState = GameState.Playing;
     private void HandleState(GameState state)
     {
         isInteracting =
@@ -357,6 +358,16 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         state == GameState.MainMenu ||
         state == GameState.QuestLog ||
         state == GameState.Inventory;
+
+        if (state == GameState.QuestLog || state == GameState.Inventory || state == GameState.Paused)
+        {
+            audioSource.PlayOneShot(sounds[2]);
+        }
+        else if (state == GameState.Playing && previousState == GameState.QuestLog || previousState == GameState.Inventory || previousState == GameState.Paused)
+        {
+            audioSource.PlayOneShot(sounds[3]);
+        }
+        previousState = state;
     }
 
     private void TrySubscribeToGameManager()
