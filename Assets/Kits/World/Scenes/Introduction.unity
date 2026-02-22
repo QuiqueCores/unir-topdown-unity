@@ -443,7 +443,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -853880853
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 10
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -4017,6 +4017,7 @@ MonoBehaviour:
   linearSpeed: 2
   priority: 0
   side: 1
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
@@ -4171,7 +4172,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1669654857
-  m_SortingLayer: 4
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2077256298475721182, guid: 0dec4d8a7619382469bb1ec550bc9a4f, type: 3}
@@ -6047,6 +6048,7 @@ MonoBehaviour:
   linearSpeed: 1
   priority: 0
   side: 0
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
@@ -6626,6 +6628,7 @@ MonoBehaviour:
   linearSpeed: 1
   priority: 0
   side: 0
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
@@ -35065,6 +35068,7 @@ MonoBehaviour:
   linearSpeed: 1
   priority: 0
   side: 0
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
@@ -35252,7 +35256,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -853880853
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 5
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -37217,6 +37221,7 @@ MonoBehaviour:
   linearSpeed: 1
   priority: 0
   side: 0
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
@@ -37702,7 +37707,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -853880853
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -39875,6 +39880,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1163223482607520050, guid: 58d27a24950324846883e25b028559ed, type: 3}
+      propertyPath: side
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163223482607520050, guid: 58d27a24950324846883e25b028559ed, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5368193180317252985, guid: 58d27a24950324846883e25b028559ed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.54
@@ -39919,6 +39932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkeletonNPCBack
       objectReference: {fileID: 0}
+    - target: {fileID: 6229057204913581341, guid: 58d27a24950324846883e25b028559ed, type: 3}
+      propertyPath: melee
+      value: 
+      objectReference: {fileID: 11400000, guid: 01920dcf8f55b6d4ca5af143d9cc114d, type: 2}
     - target: {fileID: 7241829080943018821, guid: 58d27a24950324846883e25b028559ed, type: 3}
       propertyPath: dialogueBox
       value: 
@@ -40111,6 +40128,7 @@ MonoBehaviour:
   linearSpeed: 1
   priority: 0
   side: 0
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
@@ -40257,6 +40275,7 @@ MonoBehaviour:
   linearSpeed: 1
   priority: 0
   side: 0
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
@@ -40369,6 +40388,7 @@ MonoBehaviour:
   linearSpeed: 1
   priority: 0
   side: 0
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2

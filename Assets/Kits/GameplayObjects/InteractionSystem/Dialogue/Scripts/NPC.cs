@@ -132,9 +132,7 @@ public class NPC : BaseInteractable
         npcManager.ChangePlayerState(false);
         this.GetComponent<NPC>().enabled = false;
         enemyBehaviour.enabled = true;
-
-
-
+        enemyBehaviour.SetSide(IVisible2D.Side.Enemies);
     }
 
     public void SetConversationAt(int index, DialogueSO dialogue)

@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using static IVisible2D;
 
 public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
 {
@@ -8,6 +9,10 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
 
     [SerializeField] int priority = 0;
     [SerializeField] IVisible2D.Side side;
+    public void SetSide(Side side)
+    {
+        this.side = side;
+    }
 
     protected Rigidbody2D rb2D;
     protected Animator animator;
