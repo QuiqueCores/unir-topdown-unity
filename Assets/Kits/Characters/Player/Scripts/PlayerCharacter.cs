@@ -144,6 +144,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
             }
             else
             {
+                stepTimer = stepInterval;
                 animator.SetFloat("HorizontalVelocity", 0);
                 animator.SetFloat("VerticalVelocity", 0);
                 animator.SetFloat("DireccionX", lastLookDirection.x);
