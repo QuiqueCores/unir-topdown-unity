@@ -15,7 +15,9 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     //IAttacker
     [Header("Attack")]
     [SerializeField] int damage = 1;
-    [SerializeField] AudioClip attackSound;
+    [SerializeField] AudioClip[] sounds;
+    [SerializeField] float stepInterval = 0.5f;
+    private float stepTimer;
 
     MeleeAttack melee;
     Vector2 rawMove;
@@ -131,10 +133,18 @@ public class PlayerCharacter : BaseCharacter, IAttacker
             {
                 animator.SetFloat("HorizontalVelocity", lastLookDirection.x);
                 animator.SetFloat("VerticalVelocity", lastLookDirection.y);
+                stepTimer -= Time.deltaTime;
+
+                if (stepTimer <= 0)
+                {
+                    audioSource.PlayOneShot(sounds[1]);
+                    stepTimer = stepInterval;
+                }
 
             }
             else
             {
+                stepTimer = stepInterval;
                 animator.SetFloat("HorizontalVelocity", 0);
                 animator.SetFloat("VerticalVelocity", 0);
                 animator.SetFloat("DireccionX", lastLookDirection.x);
@@ -180,7 +190,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
         // Ejecutar daño
         melee.TryAttack(lastLookDirection);
-        audioSource.PlayOneShot(attackSound);
+        audioSource.PlayOneShot(sounds[0]);
 
         yield return new WaitForSeconds(attackAnimationTime);
 
