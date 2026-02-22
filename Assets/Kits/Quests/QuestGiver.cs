@@ -55,6 +55,12 @@ public class QuestGiver : NPC
 
     private void HandleQuestLogic(GameObject player)
     {
+        if (QuestManager.instance.IsQuestCompleted(quest.questId))
+        {
+            this.SetConversationAt(0, completedQuestDialogue);
+            return;
+        }
+
         QuestStatus status = QuestManager.instance.ActiveQuests.Find(q => q.QuestData == quest);
 
         if (status == null)
