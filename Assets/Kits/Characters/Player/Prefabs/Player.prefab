@@ -153,6 +153,8 @@ MonoBehaviour:
   sounds:
   - {fileID: 8300000, guid: 5c5873bc5d0d5424490667017b0a9581, type: 3}
   - {fileID: 8300000, guid: bf4f4d13b014d4647bcc8b6a1fac28a4, type: 3}
+  - {fileID: 8300000, guid: 3de4ba421e9bb944f9ae5194bd4ba88a, type: 3}
+  - {fileID: 8300000, guid: c384de4577a2f1d4a9786f490eff4088, type: 3}
   stepInterval: 0.5
   attackAnimationTime: 0.3
   interactRadius: 1.2

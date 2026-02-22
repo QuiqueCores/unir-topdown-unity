@@ -86,8 +86,13 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
     protected virtual void Die()
     {
         isDead = true;
-        Destroy(gameObject);
+        StartCoroutine(DestroyAfterDelay());
+    }
 
+    IEnumerator DestroyAfterDelay()
+    {
+        yield return new WaitForSeconds(0.3f);
+        Destroy(gameObject);
     }
 
     IEnumerator FlashRoutine()

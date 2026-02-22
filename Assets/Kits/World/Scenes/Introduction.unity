@@ -4014,6 +4014,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &533650606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5834,6 +5835,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &1122311396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6330,6 +6332,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &1498961673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34763,6 +34766,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &1532167018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36902,6 +36906,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!1001 &1915497170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39774,6 +39779,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!1001 &1891591963080921735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39921,6 +39927,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &3798425042641881125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40027,6 +40034,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &4250614730058444028
 MonoBehaviour:
   m_ObjectHideFlags: 0

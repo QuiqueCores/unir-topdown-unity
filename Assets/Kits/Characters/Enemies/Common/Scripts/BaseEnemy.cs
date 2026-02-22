@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem.Processors;
 
 public abstract class BaseEnemy : BaseCharacter, IAttacker
 {
@@ -17,7 +18,6 @@ public abstract class BaseEnemy : BaseCharacter, IAttacker
     }
 
     public int Damage => damage;
-
 
     protected override void Update()
     {
