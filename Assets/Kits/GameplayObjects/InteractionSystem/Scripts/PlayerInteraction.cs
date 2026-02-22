@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
 
 public class PlayerInteraction : MonoBehaviour
 {
@@ -58,6 +57,10 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnInteractTriggered(InputAction.CallbackContext context)
     {
+        if (GameManager.Instance.State != GameState.Playing && GameManager.Instance.State != GameState.Dialogue)
+        {
+            return;
+        }
         PerformInteraction();
     }
 

@@ -40,6 +40,8 @@ public class UIStateController : MonoBehaviour
                 break;
 
             case GameState.Dialogue:
+            case GameState.QuestLog:
+            case GameState.Inventory:
             case GameState.Playing:
                 hudRoot.SetActive(true);
                 break;

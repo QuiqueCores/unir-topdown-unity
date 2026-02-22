@@ -341,7 +341,12 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
     private void HandleState(GameState state)
     {
-        isInteracting = (state == GameState.Dialogue);
+        isInteracting =
+        state == GameState.Dialogue ||
+        state == GameState.Paused ||
+        state == GameState.MainMenu ||
+        state == GameState.QuestLog ||
+        state == GameState.Inventory;
     }
 
     private void TrySubscribeToGameManager()
