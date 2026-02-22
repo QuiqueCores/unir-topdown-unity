@@ -15,6 +15,6 @@ MonoBehaviour:
   itemId: Item_Key_Left
   displayName: Llave puerta izquierda
   description: Llave puerta izquierda
-  icon: {fileID: 0}
+  icon: {fileID: 5936433726625651547, guid: 0ade75bb00dd34448b24f6be32ecadba, type: 3}
   stackable: 0
   maxStack: 1

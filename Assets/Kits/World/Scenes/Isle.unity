@@ -2837,7 +2837,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 119247770485522160, guid: e9b84ab840d087e40b86b6d9225b26d4, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 488561689289702600, guid: e9b84ab840d087e40b86b6d9225b26d4, type: 3}
       propertyPath: requiredItem
@@ -3216,6 +3216,7 @@ MonoBehaviour:
   linearSpeed: 2
   priority: 0
   side: 1
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
@@ -14170,6 +14171,7 @@ MonoBehaviour:
   linearSpeed: 1
   priority: 0
   side: 0
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
@@ -14844,6 +14846,7 @@ MonoBehaviour:
   linearSpeed: 1
   priority: 0
   side: 0
+  audioSource: {fileID: 0}
   maxLives: 1
   flashDuration: 0.1
   flashCount: 2
