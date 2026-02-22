@@ -15,6 +15,6 @@ MonoBehaviour:
   itemId: Item_Key_Right
   displayName: Llave puerta derecha
   description: Llave puerta derecha
-  icon: {fileID: 0}
+  icon: {fileID: -1154849584820528085, guid: 874e8e6f32ead6846a9f76b9e9b4c940, type: 3}
   stackable: 0
   maxStack: 1

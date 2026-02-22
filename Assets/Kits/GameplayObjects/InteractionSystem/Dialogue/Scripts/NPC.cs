@@ -55,6 +55,8 @@ public class NPC : BaseInteractable
 
         enabled = false;
         enemyBehaviour.enabled = true;
+        
+        enemyBehaviour.SetSide(IVisible2D.Side.Enemies);
     }
 
     public bool IsDialogueOpen()

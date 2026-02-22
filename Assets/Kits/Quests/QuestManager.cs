@@ -97,4 +97,11 @@ public class QuestManager : MonoBehaviour
     {
         OnQuestLogUpdated?.Invoke();
     }
+
+    public List<string> completedQuests = new List<string>();
+
+    public bool IsQuestCompleted(string questId)
+    {
+        return completedQuests.Contains(questId);
+    }
 }

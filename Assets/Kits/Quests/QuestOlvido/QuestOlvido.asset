@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7651d0db24e10a419aef79d59ae6e7e, type: 3}
   m_Name: QuestOlvido
   m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questId: olvido
   questName: "Recomposici\xF3n de la Memoria"
   questStory: "El Esp\xEDritu del Olvido ha perdido su memoria, se encuentra fragmentada
     y repartida por la isla. Ay\xFAdale a recuperarla para proteger el Limiar."

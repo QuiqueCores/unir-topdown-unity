@@ -26,6 +26,12 @@ public class QuestGiver : NPC
 
     private void UpdateDialogueBasedOnQuest()
     {
+        if (QuestManager.instance.IsQuestCompleted(quest.questId))
+        {
+            this.SetConversationAt(0, completedQuestDialogue);
+            return; 
+        }
+
         QuestStatus status = QuestManager.instance.ActiveQuests.Find(q => q.QuestData == quest);
 
         if (status == null)
@@ -74,6 +80,8 @@ public class QuestGiver : NPC
             {
                 inventory.Add(quest.itemReward2, quest.itemReward2Amount);
             }
+            QuestManager.instance.completedQuests.Add(quest.questId);
+
             QuestManager.instance.ActiveQuests.RemoveAll(q => q.QuestData == quest);
 
             QuestManager.instance.NotifyQuestLogUpdated();

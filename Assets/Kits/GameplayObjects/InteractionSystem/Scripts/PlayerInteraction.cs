@@ -61,76 +61,45 @@ public class PlayerInteraction : MonoBehaviour
         PerformInteraction();
     }
 
-    //private void PerformInteraction()
-    //{
-    //    Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, range);
-    //
-    //    foreach (Collider2D hit in hits)
-    //    {
-    //        IInteractable interactable = hit.GetComponent<IInteractable>();
-    //
-    //        if (interactable != null && hit.gameObject != gameObject)
-    //        {
-    //            Debug.Log($"<color=green>Interface detectada en:</color> {hit.gameObject.name}");
-    //            interactable.Interact(this.gameObject);
-    //            return;
-    //        }
-    //    }
-    //
-    //    Debug.Log("No IInteractable found nearby.");
-    //}
-
     private void PerformInteraction()
     {
         PlayerCharacter player = GetComponent<PlayerCharacter>();
         Vector2 dir = player.lookDirection;
 
-        Debug.Log("==== INTERACT PRESSED ====");
-
         if (dir == Vector2.zero)
-        {
-            Debug.Log("Dirección cero → CANCELADO");
             return;
-        }
 
         Vector2 targetCell = (Vector2)transform.position + dir;
 
-        Debug.Log("Celda objetivo: " + targetCell);
-
-        Collider2D[] hits = Physics2D.OverlapBoxAll(
+        Collider2D[] cellHits = Physics2D.OverlapBoxAll(
             targetCell,
             Vector2.one * 0.9f,
             0f
         );
 
-        Debug.Log("Colliders detectados: " + hits.Length);
-
-        IInteractable closestInteractable = null;
-        float closestDistance = float.MaxValue;
-
-        foreach (var hit in hits)
+        foreach (var hit in cellHits)
         {
-            IInteractable interactable = hit.GetComponent<IInteractable>();
-            if (interactable == null)
-                continue;
-
-            float dist = Vector2.Distance(transform.position, hit.transform.position);
-
-            if (dist < closestDistance)
+            PushableObject rock = hit.GetComponent<PushableObject>();
+            if (rock != null)
             {
-                closestDistance = dist;
-                closestInteractable = interactable;
+                rock.Interact(gameObject);
+                return;
             }
         }
 
-        if (closestInteractable != null)
+        Collider2D[] nearby = Physics2D.OverlapCircleAll(
+            transform.position,
+            1.2f
+        );
+
+        foreach (var hit in nearby)
         {
-            Debug.Log("Interactuando con: " + ((MonoBehaviour)closestInteractable).name);
-            closestInteractable.Interact(gameObject);
-        }
-        else
-        {
-            Debug.Log("No se encontró IInteractable válido");
+            IInteractable interactable = hit.GetComponent<IInteractable>();
+            if (interactable != null)
+            {
+                interactable.Interact(gameObject);
+                return;
+            }
         }
     }
 

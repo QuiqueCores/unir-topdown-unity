@@ -15,4 +15,7 @@ MonoBehaviour:
   lines:
   - "No intentes atravesar esa puerta, est\xE1 cerrada por un motivo. No quiero ni
     imaginar los peligros que esperan ah\xED dentro."
+  - "Adem\xE1s, no creo que haya ah\xED dentro nada que merezca la pena. Seg\xFAn
+    he o\xEDdo, lo m\xE1s interesante que puedes encontrar es una llave vieja y oxidada
+    y un fragmento de s\xF3lo los esp\xEDritus sabr\xE1n qu\xE9."
   choices: []
