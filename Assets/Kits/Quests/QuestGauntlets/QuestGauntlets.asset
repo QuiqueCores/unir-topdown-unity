@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7651d0db24e10a419aef79d59ae6e7e, type: 3}
   m_Name: QuestGauntlets
   m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questId: gauntlets
   questName: La Soledad de un Repdudiado
   questStory: "En la isla de los Esp\xEDritus, hay un Repudiado que a\xF1ora la compa\xF1\xEDa
     al que le gusta contar sus historias. Volver a hablar con \xE9l le har\xEDa muy
