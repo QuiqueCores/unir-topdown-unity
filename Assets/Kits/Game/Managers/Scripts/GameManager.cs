@@ -20,6 +20,8 @@ public class GameManager : PersistentSingleton<GameManager>
             case GameState.MainMenu:
             case GameState.Playing:
             case GameState.Dialogue:
+            case GameState.Inventory:
+            case GameState.QuestLog:
                 Time.timeScale = 1f;
                 break;
 

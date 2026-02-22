@@ -4,6 +4,8 @@ public enum GameState
     Playing,
     Paused,
     Dialogue,
+    Inventory,
+    QuestLog,
     Transition,
     Victory,
     Defeat
