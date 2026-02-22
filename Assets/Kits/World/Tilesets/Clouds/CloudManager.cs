@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 
 public class CloudManager : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class CloudManager : MonoBehaviour
 
     public Vector2 scaleRange = new Vector2(200f, 400f);
     public Vector2 alphaRange = new Vector2(0.1f, 0.5f);
-    
+
 
     [SerializeField] bool spawnAboveGround = true;
     [SerializeField] bool spawnBelowGround = true;

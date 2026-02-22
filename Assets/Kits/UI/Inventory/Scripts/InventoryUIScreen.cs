@@ -81,11 +81,17 @@ public class InventoryUIScreen : MonoBehaviour
 
     public void Open()
     {
+        if (GameManager.Instance.State != GameState.Playing)
+        {
+            return;
+        }
+
         isOpen = true;
         screenRoot.SetActive(true);
 
-        playerInput.SwitchCurrentActionMap("UI");
-        RebindToggleAction();
+        // playerInput.SwitchCurrentActionMap("UI");
+        // RebindToggleAction();
+        GameManager.Instance.SetState(GameState.Inventory);
 
         Refresh();
 
@@ -101,8 +107,9 @@ public class InventoryUIScreen : MonoBehaviour
         isOpen = false;
         screenRoot.SetActive(false);
 
-        playerInput.SwitchCurrentActionMap("Player");
-        RebindToggleAction();
+        // playerInput.SwitchCurrentActionMap("Player");
+        // RebindToggleAction();
+        GameManager.Instance.SetState(GameState.Playing);
 
         // Clear selection
         if (EventSystem.current != null)
@@ -145,7 +152,7 @@ public class InventoryUIScreen : MonoBehaviour
             detailsImage.sprite = null;
             detailsImage.color = new Color(1f, 1f, 1f, 0f); ;
             detailsNameText.text = "";
-            detailsDescriptionText.text = "Inventario vacío.";
+            detailsDescriptionText.text = "Inventario vacÃ­o.";
         }
     }
 

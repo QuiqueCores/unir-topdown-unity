@@ -15,7 +15,9 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     //IAttacker
     [Header("Attack")]
     [SerializeField] int damage = 1;
-    [SerializeField] AudioClip attackSound;
+    [SerializeField] AudioClip[] sounds;
+    [SerializeField] float stepInterval = 0.5f;
+    private float stepTimer;
 
     MeleeAttack melee;
     Vector2 rawMove;
@@ -34,6 +36,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
     private bool isInteracting = false;
     public bool IsInteracting { get => isInteracting; set => isInteracting = value; }
+    private bool subscribed;
 
     protected override void Awake()
     {
@@ -54,6 +57,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+        TrySubscribeToGameManager();
 
         moveAction.Enable();
 
@@ -68,9 +72,19 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         togglePauseAction.performed += OnTogglePause;
     }
 
+    private void Start()
+    {
+        TrySubscribeToGameManager();
+    }
+
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.OnStateChanged -= HandleState;
+        }
+        subscribed = false;
 
         moveAction.Disable();
 
@@ -88,6 +102,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         BindCamera();
+        TrySubscribeToGameManager();
     }
 
     protected override void Update()
@@ -118,10 +133,18 @@ public class PlayerCharacter : BaseCharacter, IAttacker
             {
                 animator.SetFloat("HorizontalVelocity", lastLookDirection.x);
                 animator.SetFloat("VerticalVelocity", lastLookDirection.y);
+                stepTimer -= Time.deltaTime;
+
+                if (stepTimer <= 0)
+                {
+                    audioSource.PlayOneShot(sounds[1]);
+                    stepTimer = stepInterval;
+                }
 
             }
             else
             {
+                stepTimer = stepInterval;
                 animator.SetFloat("HorizontalVelocity", 0);
                 animator.SetFloat("VerticalVelocity", 0);
                 animator.SetFloat("DireccionX", lastLookDirection.x);
@@ -159,15 +182,15 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         // Bloquear movimiento
         rawMove = Vector2.zero;
 
-        // Pasar direcci�n al animator
+        // Pasar dirección al animator
         animator.SetFloat("DireccionX", lastLookDirection.x);
         animator.SetFloat("DireccionY", lastLookDirection.y);
 
         animator.SetBool("Attack", true);
 
-        // Ejecutar da�o
+        // Ejecutar daño
         melee.TryAttack(lastLookDirection);
-        audioSource.PlayOneShot(attackSound);
+        audioSource.PlayOneShot(sounds[0]);
 
         yield return new WaitForSeconds(attackAnimationTime);
 
@@ -324,5 +347,32 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         {
             best.Interact(gameObject);
         }
+    }
+
+    private void HandleState(GameState state)
+    {
+        isInteracting =
+        state == GameState.Dialogue ||
+        state == GameState.Paused ||
+        state == GameState.MainMenu ||
+        state == GameState.QuestLog ||
+        state == GameState.Inventory;
+    }
+
+    private void TrySubscribeToGameManager()
+    {
+        if (subscribed)
+        {
+            return;
+        }
+        if (GameManager.Instance == null)
+        {
+            return;
+        }
+
+        GameManager.Instance.OnStateChanged += HandleState;
+        subscribed = true;
+
+        HandleState(GameManager.Instance.State);
     }
 }

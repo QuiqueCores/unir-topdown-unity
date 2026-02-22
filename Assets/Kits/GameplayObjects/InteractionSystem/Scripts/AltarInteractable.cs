@@ -1,7 +1,5 @@
-using System;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
-using UnityEngine.UI;
 
 
 public class AltarInteractable : BaseInteractable

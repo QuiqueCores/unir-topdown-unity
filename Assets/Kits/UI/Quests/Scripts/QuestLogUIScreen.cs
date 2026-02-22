@@ -80,11 +80,17 @@ public class QuestLogUIScreen : MonoBehaviour
 
     public void Open()
     {
+        if (GameManager.Instance.State != GameState.Playing)
+        {
+            return;
+        }
+
         isOpen = true;
         screenRoot.SetActive(true);
 
-        playerInput.SwitchCurrentActionMap("UI");
-        RebindToggleAction();
+        // playerInput.SwitchCurrentActionMap("UI");
+        // RebindToggleAction();
+        GameManager.Instance.SetState(GameState.QuestLog);
 
         Refresh();
 
@@ -99,8 +105,9 @@ public class QuestLogUIScreen : MonoBehaviour
         isOpen = false;
         screenRoot.SetActive(false);
 
-        playerInput.SwitchCurrentActionMap("Player");
-        RebindToggleAction();
+        // playerInput.SwitchCurrentActionMap("Player");
+        // RebindToggleAction();
+        GameManager.Instance.SetState(GameState.Playing);
 
         if (EventSystem.current != null)
         {
@@ -133,7 +140,7 @@ public class QuestLogUIScreen : MonoBehaviour
 
         if (active == null || active.Count == 0)
         {
-            SetEmptyDetails("No hay misiones activas", "Acepta una misión para que aparezca aquí.", "");
+            SetEmptyDetails("No hay misiones activas", "Acepta una misiÃ³n para que aparezca aquÃ­.", "");
             return;
         }
 
@@ -206,7 +213,7 @@ public class QuestLogUIScreen : MonoBehaviour
 
         if (status.isCompleted)
         {
-            lines.Add("    \u25AB Vuelve a hablar con quien te encomendó esta misión para recibir la recompensa.");
+            lines.Add("    \u25AB Vuelve a hablar con quien te encomendÃ³ esta misiÃ³n para recibir la recompensa.");
         }
 
         return string.Join("\n", lines);
