@@ -4,8 +4,7 @@ public class MainMenuView : MonoBehaviour
 {
     public void Play()
     {
-        GameManager.Instance.SetState(GameState.Playing);
-        SceneTransitionManager.Instance.RequestTransition("Introduction", "Spawn");
+        SceneTransitionManager.Instance.RequestTransition("Introduction", "Spawn", GameState.Playing);
     }
 
     public void Quit()

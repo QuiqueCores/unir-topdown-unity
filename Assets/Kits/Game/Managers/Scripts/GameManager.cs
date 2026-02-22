@@ -22,12 +22,12 @@ public class GameManager : PersistentSingleton<GameManager>
             case GameState.Dialogue:
             case GameState.Inventory:
             case GameState.QuestLog:
+            case GameState.Victory:
                 Time.timeScale = 1f;
                 break;
 
             case GameState.Paused:
             case GameState.Transition:
-            case GameState.Victory:
             case GameState.Defeat:
                 Time.timeScale = 0f;
                 break;

@@ -11,6 +11,9 @@ public class ScenePortal : MonoBehaviour
     [SerializeField] private bool requirePlayerTag = true;
     [SerializeField] private string playerTag = "Player";
 
+    [Header("GameState")]
+    [SerializeField] private GameState targetState = GameState.Playing;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (requirePlayerTag && !collision.CompareTag(playerTag))
@@ -18,6 +21,6 @@ public class ScenePortal : MonoBehaviour
             return;
         }
 
-        SceneTransitionManager.Instance.RequestTransition(targetSceneName, targetSpawnId);
+        SceneTransitionManager.Instance.RequestTransition(targetSceneName, targetSpawnId, targetState);
     }
 }

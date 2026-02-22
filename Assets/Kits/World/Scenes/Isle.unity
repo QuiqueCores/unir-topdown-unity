@@ -1956,63 +1956,6 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: 0}
   lookOffsetDistance: 2
   lookSmoothSpeed: 5
---- !u!1001 &530759244
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.2355037
-      objectReference: {fileID: 0}
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 12.200308
-      objectReference: {fileID: 0}
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 510525799304463711, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6315165210212468112, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
-      propertyPath: m_Name
-      value: Hammer
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a8b090d37cb75dc4ca976d72c0ba8f77, type: 3}
 --- !u!1001 &536160802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3056,6 +2999,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &904810219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13584,6 +13528,7 @@ MonoBehaviour:
   targetSpawnId: Spawn
   requirePlayerTag: 1
   playerTag: Player
+  targetState: 7
 --- !u!61 &1651664541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13934,6 +13879,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &1857779057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14595,6 +14541,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!95 &2063686086
 Animator:
   serializedVersion: 7
@@ -20617,4 +20564,3 @@ SceneRoots:
   - {fileID: 559088540}
   - {fileID: 2267968706310287112}
   - {fileID: 1277983462}
-  - {fileID: 530759244}

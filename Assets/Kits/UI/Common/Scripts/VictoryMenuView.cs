@@ -1,12 +1,7 @@
 using UnityEngine;
 
-public class PauseMenuView : MonoBehaviour
+public class VictoryMenuView : MonoBehaviour
 {
-    public void Resume()
-    {
-        GameManager.Instance.SetState(GameState.Playing);
-    }
-
     public void GoToMainMenu()
     {
         SceneTransitionManager.Instance.RequestTransition("MainMenu", "Spawn", GameState.MainMenu);

@@ -7,10 +7,12 @@ public class UIStateController : MonoBehaviour
     [SerializeField] private GameObject hudRoot;
     [SerializeField] private GameObject pauseMenuRoot;
     [SerializeField] private GameObject mainMenuRoot;
+    [SerializeField] private GameObject victoryMenuRoot;
 
     [Header("First Selected")]
     [SerializeField] private GameObject pauseFirstSelected;
     [SerializeField] private GameObject mainMenuFirstSelected;
+    [SerializeField] private GameObject victoryMenuFirstSelected;
 
     private void OnEnable()
     {
@@ -31,6 +33,7 @@ public class UIStateController : MonoBehaviour
         hudRoot.SetActive(false);
         pauseMenuRoot.SetActive(false);
         mainMenuRoot.SetActive(false);
+        victoryMenuRoot.SetActive(false);
 
         switch (state)
         {
@@ -51,8 +54,12 @@ public class UIStateController : MonoBehaviour
                 Select(pauseFirstSelected);
                 break;
 
-            case GameState.Transition:
             case GameState.Victory:
+                victoryMenuRoot.SetActive(true);
+                Select(victoryMenuFirstSelected);
+                break;
+
+            case GameState.Transition:
             case GameState.Defeat:
                 break;
         }

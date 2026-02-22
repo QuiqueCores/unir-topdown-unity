@@ -19,14 +19,14 @@ public class SceneTransitionManager : PersistentSingleton<SceneTransitionManager
         EnsureFaderExists();
     }
 
-    public void RequestTransition(string sceneName, string spawnId)
+    public void RequestTransition(string sceneName, string spawnId, GameState targetState)
     {
         if (isTransitioning)
         {
             return;
         }
 
-        StartCoroutine(TransitionRoutine(sceneName, spawnId));
+        StartCoroutine(TransitionRoutine(sceneName, spawnId, targetState));
     }
 
     private void EnsureFaderExists()
@@ -40,7 +40,7 @@ public class SceneTransitionManager : PersistentSingleton<SceneTransitionManager
         DontDestroyOnLoad(fader.gameObject);
     }
 
-    private IEnumerator TransitionRoutine(string sceneName, string spawnId)
+    private IEnumerator TransitionRoutine(string sceneName, string spawnId, GameState targetState)
     {
         isTransitioning = true;
 
@@ -63,7 +63,7 @@ public class SceneTransitionManager : PersistentSingleton<SceneTransitionManager
 
         yield return fader.FadeIn(fadeInDuration);
 
-        GameManager.Instance.SetState(GameState.Playing);
+        GameManager.Instance.SetState(targetState);
 
         isTransitioning = false;
     }

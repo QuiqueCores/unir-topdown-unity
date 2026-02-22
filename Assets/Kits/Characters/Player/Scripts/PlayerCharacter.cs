@@ -357,7 +357,16 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         state == GameState.Paused ||
         state == GameState.MainMenu ||
         state == GameState.QuestLog ||
+        state == GameState.Victory ||
         state == GameState.Inventory;
+
+        if (state == GameState.Victory)
+        {
+            animator.SetFloat("HorizontalVelocity", 0);
+            animator.SetFloat("VerticalVelocity", 0);
+            animator.SetFloat("DireccionX", Vector2.down.x);
+            animator.SetFloat("DireccionY", Vector2.down.y);
+        }
 
         if (state == GameState.QuestLog || state == GameState.Inventory || state == GameState.Paused)
         {

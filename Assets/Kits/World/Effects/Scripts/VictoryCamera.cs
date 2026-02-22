@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class VictoryCamera : MonoBehaviour
 {
-  
+
     Vector3 startPos;
 
     void Start()
