@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Kits/World/Scenes/Puzzle.unity
     guid: 056844387a8fc0b4ebbbb9368b7de0a0
+  - enabled: 1
+    path: Assets/Kits/World/Scenes/SceneVictory.unity
+    guid: 9a5cd97b12efd174d96f558873c1a466
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 277748a027848074da3164d447370b8c, type: 3}
   m_UseUCBPForAssetBundles: 0
