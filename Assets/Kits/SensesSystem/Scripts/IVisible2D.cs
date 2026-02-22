@@ -9,4 +9,6 @@ public interface IVisible2D
 
     public int GetPriority();
     public Side GetSide();
+
+    public void SetSide(Side side);
 }
