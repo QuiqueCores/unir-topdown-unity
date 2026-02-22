@@ -16,6 +16,8 @@ public class DialogueUIManager : PersistentSingleton<DialogueUIManager>
 
     [Header("Typewriter")]
     [SerializeField] private float timeBetweenLetters = 0.05f;
+    [SerializeField] private AudioClip typeSound;
+    [SerializeField] private AudioClip choiceSound;
 
     private Coroutine typingRoutine;
     private bool isTyping;
@@ -87,6 +89,7 @@ public class DialogueUIManager : PersistentSingleton<DialogueUIManager>
         foreach (char c in line)
         {
             dialogueText.text += c;
+            dialogueBox.GetComponent<AudioSource>()?.PlayOneShot(typeSound, 0.2f);
             yield return new WaitForSeconds(timeBetweenLetters);
         }
 
@@ -127,6 +130,7 @@ public class DialogueUIManager : PersistentSingleton<DialogueUIManager>
 
     public void SetDialogue(DialogueSO newDialogue)
     {
+        dialogueBox.GetComponent<AudioSource>()?.PlayOneShot(choiceSound, 0.2f);
         currentDialogue = newDialogue;
         lineIndex = -1;
         dialogueText.text = "";
