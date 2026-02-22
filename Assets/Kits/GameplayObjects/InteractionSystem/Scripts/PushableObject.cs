@@ -5,8 +5,15 @@ public class PushableObject : BaseInteractable
 {
     [SerializeField] float moveDuration = 0.2f;
     [SerializeField] LayerMask blockingLayers;
+    [SerializeField] AudioClip moveSound;
+    AudioSource audioSource;
 
     bool isMoving = false;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     protected override void OnInteract(GameObject requester)
     {
@@ -59,6 +66,9 @@ public class PushableObject : BaseInteractable
             Debug.Log("Bloqueado por: " + hit.name);
             return;
         }
+
+        if (audioSource != null && moveSound != null)
+            audioSource.PlayOneShot(moveSound);
 
         Debug.Log("Movimiento permitido → INICIANDO LERP");
 

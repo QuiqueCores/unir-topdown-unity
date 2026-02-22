@@ -4024,6 +4024,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &533650606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4116,15 +4117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   requiredItem: {fileID: 0}
-  npcManager: {fileID: 11400000, guid: 5144b251b296fd544928536e78974ce1, type: 2}
   conversations:
   - {fileID: 11400000, guid: 6caa89ab2dd2bdb498c28634fd9a78ad, type: 2}
-  frases: []
-  timeBetweenLetters: 0.05
-  dialogueBox: {fileID: 1284219579}
-  dialogueText: {fileID: 446415513}
-  choicesPanel: {fileID: 706672436}
-  choiceButtonPrefab: {fileID: 9093244976284457921, guid: 2a783bf538645734b9dbb5b4dd37a2b1, type: 3}
   enemyBehaviour: {fileID: 533650605}
 --- !u!212 &533650610
 SpriteRenderer:
@@ -6055,6 +6049,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &1122311396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6068,15 +6063,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   requiredItem: {fileID: 0}
-  npcManager: {fileID: 11400000, guid: 5144b251b296fd544928536e78974ce1, type: 2}
   conversations:
   - {fileID: 11400000, guid: f5a642e691e81c345a80535a41e0dc52, type: 2}
-  frases: []
-  timeBetweenLetters: 0.05
-  dialogueBox: {fileID: 1284219579}
-  dialogueText: {fileID: 446415513}
-  choicesPanel: {fileID: 706672436}
-  choiceButtonPrefab: {fileID: 9093244976284457921, guid: 2a783bf538645734b9dbb5b4dd37a2b1, type: 3}
   enemyBehaviour: {fileID: 1122311395}
 --- !u!1 &1160597062
 GameObject:
@@ -6635,6 +6623,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &1498961673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6648,15 +6637,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   requiredItem: {fileID: 0}
-  npcManager: {fileID: 11400000, guid: 5144b251b296fd544928536e78974ce1, type: 2}
   conversations:
   - {fileID: 11400000, guid: 11e1d23c7b008b34e98ed7ce83200ffa, type: 2}
-  frases: []
-  timeBetweenLetters: 0.05
-  dialogueBox: {fileID: 1284219579}
-  dialogueText: {fileID: 446415513}
-  choicesPanel: {fileID: 706672436}
-  choiceButtonPrefab: {fileID: 9093244976284457921, guid: 2a783bf538645734b9dbb5b4dd37a2b1, type: 3}
   enemyBehaviour: {fileID: 1498961672}
 --- !u!1 &1524782973
 GameObject:
@@ -35075,6 +35057,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &1532167018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35088,15 +35071,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   requiredItem: {fileID: 0}
-  npcManager: {fileID: 11400000, guid: 5144b251b296fd544928536e78974ce1, type: 2}
   conversations:
   - {fileID: 11400000, guid: 736b85ddb0d0cff4a809a0eacde638fb, type: 2}
-  frases: []
-  timeBetweenLetters: 0.05
-  dialogueBox: {fileID: 1284219579}
-  dialogueText: {fileID: 446415513}
-  choicesPanel: {fileID: 706672436}
-  choiceButtonPrefab: {fileID: 9093244976284457921, guid: 2a783bf538645734b9dbb5b4dd37a2b1, type: 3}
   enemyBehaviour: {fileID: 1532167017}
 --- !u!1001 &1581483833
 PrefabInstance:
@@ -37196,15 +37172,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   requiredItem: {fileID: 0}
-  npcManager: {fileID: 11400000, guid: 5144b251b296fd544928536e78974ce1, type: 2}
   conversations:
   - {fileID: 11400000, guid: 183bf884d46d1044aabb94472baed230, type: 2}
-  frases: []
-  timeBetweenLetters: 0.05
-  dialogueBox: {fileID: 1284219579}
-  dialogueText: {fileID: 446415513}
-  choicesPanel: {fileID: 706672436}
-  choiceButtonPrefab: {fileID: 9093244976284457921, guid: 2a783bf538645734b9dbb5b4dd37a2b1, type: 3}
   enemyBehaviour: {fileID: 1823482322}
 --- !u!114 &1823482322
 MonoBehaviour:
@@ -37228,6 +37197,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!1001 &1915497170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40111,15 +40081,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   requiredItem: {fileID: 0}
-  npcManager: {fileID: 11400000, guid: 5144b251b296fd544928536e78974ce1, type: 2}
   conversations:
   - {fileID: 11400000, guid: 4498420cb91b6a44bb377ec68274403f, type: 2}
-  frases: []
-  timeBetweenLetters: 0.05
-  dialogueBox: {fileID: 1284219579}
-  dialogueText: {fileID: 446415513}
-  choicesPanel: {fileID: 706672436}
-  choiceButtonPrefab: {fileID: 9093244976284457921, guid: 2a783bf538645734b9dbb5b4dd37a2b1, type: 3}
   enemyBehaviour: {fileID: 1489590298390713613}
 --- !u!114 &1489590298390713613
 MonoBehaviour:
@@ -40143,6 +40106,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!1001 &1891591963080921735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40290,6 +40254,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &3798425042641881125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40303,15 +40268,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   requiredItem: {fileID: 0}
-  npcManager: {fileID: 11400000, guid: 5144b251b296fd544928536e78974ce1, type: 2}
   conversations:
   - {fileID: 11400000, guid: 20dc37f202ac0994ba8af5b96a5d7706, type: 2}
-  frases: []
-  timeBetweenLetters: 0.05
-  dialogueBox: {fileID: 1284219579}
-  dialogueText: {fileID: 446415513}
-  choicesPanel: {fileID: 706672436}
-  choiceButtonPrefab: {fileID: 9093244976284457921, guid: 2a783bf538645734b9dbb5b4dd37a2b1, type: 3}
   enemyBehaviour: {fileID: 3798425042641881124}
 --- !u!1001 &4250614730058444025
 PrefabInstance:
@@ -40403,6 +40361,7 @@ MonoBehaviour:
   damage: 1
   attackRange: 0.8
   distance: {x: 0, y: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &4250614730058444028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40416,15 +40375,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   requiredItem: {fileID: 0}
-  npcManager: {fileID: 11400000, guid: 5144b251b296fd544928536e78974ce1, type: 2}
   conversations:
   - {fileID: 11400000, guid: bc82c6835016a8441b5c868a7283c6a4, type: 2}
-  frases: []
-  timeBetweenLetters: 0.05
-  dialogueBox: {fileID: 1284219579}
-  dialogueText: {fileID: 446415513}
-  choicesPanel: {fileID: 706672436}
-  choiceButtonPrefab: {fileID: 9093244976284457921, guid: 2a783bf538645734b9dbb5b4dd37a2b1, type: 3}
   enemyBehaviour: {fileID: 4250614730058444027}
 --- !u!1001 &5130416887660934441
 PrefabInstance:
