@@ -150,8 +150,14 @@ MonoBehaviour:
   healthChannel: {fileID: 11400000, guid: 988bb579f36063044b57e0c0ff53b49f, type: 2}
   punchRange: 1
   damage: 1
-  attackSound: {fileID: 8300000, guid: 5c5873bc5d0d5424490667017b0a9581, type: 3}
+  Sounds:
+  - {fileID: 8300000, guid: 5c5873bc5d0d5424490667017b0a9581, type: 3}
+  - {fileID: 8300000, guid: 9e5a9d736e3383b4d81d14c58f4259f8, type: 3}
   attackAnimationTime: 0.3
+  interactRadius: 1.2
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!70 &1136855698475389531
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
