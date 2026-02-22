@@ -99,7 +99,7 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
 
         for (int i = 0; i < flashCount; i++)
         {
-           
+
             spriteRenderer.color = new Color(
                 originalColor.r,
                 originalColor.g,
@@ -109,7 +109,7 @@ public class BaseCharacter : MonoBehaviour, IVisible2D, IDamageable
 
             yield return new WaitForSeconds(flashDuration);
 
-            
+
             spriteRenderer.color = originalColor;
 
             yield return new WaitForSeconds(flashDuration);

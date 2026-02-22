@@ -29,7 +29,7 @@ public class QuestGiver : NPC
         if (QuestManager.instance.IsQuestCompleted(quest.questId))
         {
             this.SetConversationAt(0, completedQuestDialogue);
-            return; 
+            return;
         }
 
         QuestStatus status = QuestManager.instance.ActiveQuests.Find(q => q.QuestData == quest);
@@ -71,7 +71,7 @@ public class QuestGiver : NPC
     {
         var inventory = player.GetComponentInChildren<InventorySystem>();
         if (inventory != null)
-        {   
+        {
             if (quest.itemReward1 != null)
             {
                 inventory.Add(quest.itemReward1, quest.itemReward1Amount);
