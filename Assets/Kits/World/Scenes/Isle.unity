@@ -2837,7 +2837,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 119247770485522160, guid: e9b84ab840d087e40b86b6d9225b26d4, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 488561689289702600, guid: e9b84ab840d087e40b86b6d9225b26d4, type: 3}
       propertyPath: requiredItem
