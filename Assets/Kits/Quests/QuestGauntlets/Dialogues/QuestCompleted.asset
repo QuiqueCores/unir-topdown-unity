@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: QuestCompleted
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   lines:
-  - "Has vuelto... Sabes, desde que hablamos, las sombras de esta isla parecen menos
-    densas. Hac\xEDa eones que nadie se quedaba a escuchar los desvar\xEDos de un
-    viejo Repudiado sin pedir nada a cambio."
+  - "Has vuelto... \xBFSabes? Desde que hablamos, las sombras de esta isla parecen
+    menos densas. Hac\xEDa eones que nadie se quedaba a escuchar los desvar\xEDos
+    de un viejo Repudiado sin pedir nada a cambio."
   - "He estado pensando en lo que te cont\xE9... sobre aquel guerrero y sus guantes.
     He pasado mucho tiempo ocultando algo, por miedo a que los esp\xEDritus me lo
     arrebataran, o por miedo a que me recordara qui\xE9n fui antes de caer aqu\xED."
   - "Toma. S\xE1calos de este letargo. Son los Guanteletes de la Fuerza. Con ellos,
-    tu fuerza se multiflicar\xE1 y podr\xE1s empujar rocas pesadas. A mis manos ya
+    tu fuerza se multiplicar\xE1 y podr\xE1s empujar rocas pesadas. A mis manos ya
     solo les queda el fr\xEDo, pero t\xFA... t\xFA a\xFAn tienes fuego en las tuyas.
     \xDAsalos para sostener este mundo que se desmorona."
   - "No me des las gracias. Ya me has pagado con el regalo m\xE1s caro que existe
