@@ -34,6 +34,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
 
     private bool isInteracting = false;
     public bool IsInteracting { get => isInteracting; set => isInteracting = value; }
+    private bool subscribed;
 
     protected override void Awake()
     {
@@ -54,6 +55,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+        TrySubscribeToGameManager();
 
         moveAction.Enable();
 
@@ -68,9 +70,19 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         togglePauseAction.performed += OnTogglePause;
     }
 
+    private void Start()
+    {
+        TrySubscribeToGameManager();
+    }
+
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.OnStateChanged -= HandleState;
+        }
+        subscribed = false;
 
         moveAction.Disable();
 
@@ -88,6 +100,7 @@ public class PlayerCharacter : BaseCharacter, IAttacker
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         BindCamera();
+        TrySubscribeToGameManager();
     }
 
     protected override void Update()
@@ -324,5 +337,27 @@ public class PlayerCharacter : BaseCharacter, IAttacker
         {
             best.Interact(gameObject);
         }
+    }
+
+    private void HandleState(GameState state)
+    {
+        isInteracting = (state == GameState.Dialogue);
+    }
+
+    private void TrySubscribeToGameManager()
+    {
+        if (subscribed)
+        {
+            return;
+        }
+        if (GameManager.Instance == null)
+        {
+            return;
+        }
+
+        GameManager.Instance.OnStateChanged += HandleState;
+        subscribed = true;
+
+        HandleState(GameManager.Instance.State);
     }
 }

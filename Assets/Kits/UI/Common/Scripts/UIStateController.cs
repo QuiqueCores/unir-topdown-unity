@@ -39,6 +39,7 @@ public class UIStateController : MonoBehaviour
                 Select(mainMenuFirstSelected);
                 break;
 
+            case GameState.Dialogue:
             case GameState.Playing:
                 hudRoot.SetActive(true);
                 break;
