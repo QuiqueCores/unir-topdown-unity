@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CollectionObjective
   objectiveDescription: "Recupera la memoria fragmentada del Esp\xEDritu del Olvido."
   requiredAmount: 2
-  itemToCollect: {fileID: 11400000, guid: e1fe830560fed364c81a108db458ce76, type: 2}
+  itemToCollect: {fileID: 11400000, guid: 477b4dbf5bf6ff446950200b3f786f5c, type: 2}
